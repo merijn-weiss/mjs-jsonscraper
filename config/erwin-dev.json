@@ -1,0 +1,17 @@
+{
+    "elastic": {
+      "index": "mjs-dev-erwin"
+    },
+    "mqtt":
+    {
+      "topics":
+          {
+              "raw": {"topic":"mjs/dev-erwin/raw"},
+              "converted": {"topic":"mjs/dev-erwin/converted"}
+          }
+    },
+    "mjsDevices":
+    {
+      "deviceSettingsFile": "settings.devices.erwin.json"
+    }
+}

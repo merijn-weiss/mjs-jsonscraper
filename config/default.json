@@ -1,0 +1,18 @@
+{
+    "elastic": {
+      "index": "mjs-dev"
+    },
+    "mqtt":
+    {
+      "connectUrl": "mqtt://broker.hivemq.com:1883",
+      "topics":
+          {
+              "raw": {"topic":"mjs/dev/raw"},
+              "converted": {"topic":"mjs/dev/converted"}
+          }
+    },
+    "mjsDevices":
+    {
+      "deviceSettingsFile": "settings.devices.json"
+    }
+}

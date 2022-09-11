@@ -1,0 +1,45 @@
+[
+    {
+        "id": "default",
+        "type": "greenroof",
+        "format": {"soilM": "0","soilT": "1","solarV": "2"},
+        "calibration": {
+            "soilM": {"a": "0.049", "b": "-1.0"},
+            "soilT": {"a": "0.25",  "b": "-20"}
+        }
+    },
+
+    {
+        "id": "default",
+        "type": "soil",
+        "format": {"soil10M": "0","soil10T": "1","soil40M": "2","soil40T": "3","solarV": "4"},
+        "calibration": {
+            "soil10M": {"a": "0.049", "b": "-1.0"},
+            "soil10T": {"a": "0.25",  "b": "-20"},
+            "soil40M": {"a": "0.049", "b": "-1.0"},
+            "soil40T": {"a": "0.25",  "b": "-20"}
+        }
+    },
+
+    {
+        "id": "default",
+        "type": "air",
+        "format": {},
+        "calibration": {}
+    },
+
+    {   "id": "2103", "type": "greenroof",
+        "calibration": {
+            "soilM": {"a": "0.049", "b": "-0.5"},
+            "soilT": {"a": "0.25",  "b": "-20"}
+        }
+    },
+
+    {   "id": "2090", "type": "greenroof"},
+    {   "id": "2102", "type": "greenroof"},
+    {   "id": "2104", "type": "greenroof"},
+    
+    {   "id": "2096", "type": "soil"},
+    {   "id": "842",  "type": "air"},
+    {   "id": "843",  "type": "air"}
+   ]
