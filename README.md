@@ -3,6 +3,7 @@ Experimental application to extra data from MJS, parse the data into a common fo
 
 To run the application you need to create a .env file in the root folder with the following keys to configure access to a Elastic Cloud instance:
 
+    NODE_ENV=
     ES_CLOUDID=
     ES_USERNAME=
     ES_PASSWORD=
