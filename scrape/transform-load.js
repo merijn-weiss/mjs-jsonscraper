@@ -45,12 +45,17 @@ function ConvertRawJSON(rawJSON) {
     convertedJSON.timestamp = (new Date(rawJSON.timestamp + '+0:00')).toISOString(); // MJS raw provides the date in UTC but does not store the timestamp in ISO 8601 
 
     // DEVICE
+    let deviceSettings = GetDeviceSettings(rawJSON.id);
+    console.log(deviceSettings);
+
     convertedJSON.device = {};
-    convertedJSON.device.id = rawJSON.id;
-    convertedJSON.device.type = undefined;
+    convertedJSON.device.id = deviceSettings.deviceID;
+    convertedJSON.device.type = deviceSettings.device.type;
     convertedJSON.device.firmware = rawJSON.firmware_version;
 
-    convertedJSON.device.solarVoltage = (rawJSON.extra != undefined ? rawJSON.extra[2] : undefined);
+    if(rawJSON.extra != undefined && (deviceSettings.device.format || deviceSettings.default.format).solarV != undefined)
+        convertedJSON.device.solarVoltage = rawJSON.extra[parseInt((deviceSettings.device.format || deviceSettings.default.format).solarV)];
+
     if(rawJSON.longitude != null && rawJSON.latitude != null)
     {
         convertedJSON.device.location = {};
@@ -77,10 +82,10 @@ function ConvertRawJSON(rawJSON) {
         convertedJSON.sensors.airquality.pm10 = pm10;
     }
 
-    if(rawJSON.extra != undefined)
+    if(rawJSON.extra != undefined && convertedJSON.device.type === 'greenroof')
     {
         convertedJSON.sensors.greenroof = {};
-        let greenRoofValues = ConvertGreenRoofValues(convertedJSON.device.id, rawJSON.extra);
+        let greenRoofValues = ConvertGreenRoofValues(deviceSettings, rawJSON.extra);
         convertedJSON.sensors.greenroof.temperature = greenRoofValues.temperature;
         convertedJSON.sensors.greenroof.humidity = greenRoofValues.humidity;
     }
@@ -88,10 +93,7 @@ function ConvertRawJSON(rawJSON) {
     return convertedJSON;
 }
 
-function ConvertGreenRoofValues(deviceID, rawExtra) {
-    let deviceSettings = GetDeviceSettings(deviceID);
-    console.log(deviceSettings);
-
+function ConvertGreenRoofValues(deviceSettings, rawExtra) {
     let defaultSetting = deviceSettings.default;
     let deviceSetting = deviceSettings.device;
 
@@ -114,10 +116,12 @@ function GetDeviceSettings(deviceID)
 {
     let deviceSettings = require(deviceSettingsFile);
 
-    let defaultSetting = deviceSettings.filter((obj) => obj.id === 'default')[0];
     let deviceSetting = deviceSettings.filter((obj) => obj.id === deviceID.toString())[0];
 
+    let defaultSetting = deviceSettings.filter((obj) => obj.id === 'default' && obj.type === deviceSetting.type)[0];
+
     return {
+        deviceID : deviceID,
         default: defaultSetting,
         device: (deviceSetting || defaultSetting)
     }   

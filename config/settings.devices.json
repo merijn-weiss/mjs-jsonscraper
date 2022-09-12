@@ -39,7 +39,20 @@
     {   "id": "2102", "type": "greenroof"},
     {   "id": "2104", "type": "greenroof"},
     
+    {   "id": "2092", "type": "soil",
+        "calibration": {
+            "soil10M": {"a": "0.049", "b": "-5.4"},
+            "soil10T": {"a": "0.25",  "b": "-20"},
+            "soil40M": {"a": "0.049", "b": "-5.3"},
+            "soil40T": {"a": "0.25",  "b": "-20"}
+        }    
+    },
     {   "id": "2096", "type": "soil"},
+
+
+
+
+
     {   "id": "842",  "type": "air"},
     {   "id": "843",  "type": "air"}
    ]
