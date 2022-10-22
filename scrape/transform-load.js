@@ -189,5 +189,5 @@ async function StoreJSONonElastic(convertedJSON)
         body: convertedJSON
         });
 
-    await ElasticClient.indices.refresh({index: elasticConfig.index});
+   // await ElasticClient.indices.refresh({index: elasticConfig.index});
 }
