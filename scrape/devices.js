@@ -11,7 +11,6 @@ const elasticConfig = config.get('elastic');
 const path = require('path');
 const deviceSettingsFile = path.join(__dirname, `../config/${devicesConfig.deviceSettingsFile}`);
 let deviceSettings = GetDeviceSettingsFile();
-console.log(deviceSettingsFile);
 
 function GetDeviceSettingsFile()
 {

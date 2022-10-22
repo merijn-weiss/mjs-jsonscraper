@@ -1,5 +1,10 @@
 'use strict';
+require('dotenv').config();
+
+const config = require('config');
 const path = require('path');
+const devicesConfig = config.get('mjsDevices');
+const deviceSettingsFile = path.join(__dirname, `../config/${devicesConfig.deviceSettingsFile}`);
 
 //MQTT
 const mqtt = require('./clientMQTT.js')
@@ -90,6 +95,16 @@ function ConvertRawJSON(rawJSON) {
         convertedJSON.sensors.greenroof.humidity = greenRoofValues.humidity;
     }
 
+    if(rawJSON.extra != undefined && convertedJSON.device.type === 'soil')
+    {
+        convertedJSON.sensors.soil = {};
+        let soilValues = ConvertSoilValues(deviceSettings, rawJSON.extra);
+        convertedJSON.sensors.soil.temperature_D10 = soilValues.temperature10;
+        convertedJSON.sensors.soil.humidity_D10 = soilValues.humidity10;
+        convertedJSON.sensors.soil.temperature_D40 = soilValues.temperature40;
+        convertedJSON.sensors.soil.humidity_D40 = soilValues.humidity40;
+    }
+
     return convertedJSON;
 }
 
@@ -111,7 +126,37 @@ function ConvertGreenRoofValues(deviceSettings, rawExtra) {
     }
 }
 
-const deviceSettingsFile = path.join(__dirname, '../config/settings.devices.json');
+function ConvertSoilValues(deviceSettings, rawExtra) {
+    let defaultSetting = deviceSettings.default;
+    let deviceSetting = deviceSettings.device;
+
+    let rawTemperature10 = rawExtra[parseInt( (deviceSetting.format || defaultSetting.format).soil10T ) ];
+    let aTemp10 = parseFloat((deviceSetting.calibration || defaultSetting.calibration).soil10T.a);
+    let bTemp10 = parseFloat((deviceSetting.calibration || defaultSetting.calibration).soil10T.b);
+
+    let rawHumidity10 = rawExtra[parseInt( (deviceSetting.format || defaultSetting.format).soil10M ) ];
+    let aHum10 = parseFloat((deviceSetting.calibration || defaultSetting.calibration).soil10M.a);
+    let bHum10 = parseFloat((deviceSetting.calibration || defaultSetting.calibration).soil10M.b);
+
+    let rawTemperature40 = rawExtra[parseInt( (deviceSetting.format || defaultSetting.format).soil40T ) ];
+    let aTemp40 = parseFloat((deviceSetting.calibration || defaultSetting.calibration).soil40T.a);
+    let bTemp40 = parseFloat((deviceSetting.calibration || defaultSetting.calibration).soil40T.b);
+
+    let rawHumidity40 = rawExtra[parseInt( (deviceSetting.format || defaultSetting.format).soil40M ) ];
+    let aHum40 = parseFloat((deviceSetting.calibration || defaultSetting.calibration).soil40M.a);
+    let bHum40 = parseFloat((deviceSetting.calibration || defaultSetting.calibration).soil40M.b);
+
+
+    return {
+        temperature10: (rawTemperature10 * aTemp10) + bTemp10,
+        humidity10: (rawHumidity10 * aHum10) + bHum10,
+
+        temperature40: (rawTemperature40 * aTemp40) + bTemp40,
+        humidity40: (rawHumidity40 * aHum40) + bHum40,
+    }
+}
+
+//const deviceSettingsFile = path.join(__dirname, '../config/settings.devices.json');
 function GetDeviceSettings(deviceID)
 {
     let deviceSettings = require(deviceSettingsFile);
