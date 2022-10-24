@@ -38,6 +38,7 @@ const scrapeAndPublish = device => {
 
                 const throttleTimeMS = 100; // We pace publishing the JSON to prevent overloading MQQT
                 for(let measurement of measurements) {
+                    device.measurement = measurement;
                     jsonsPublished++;
                     measusrementBatchSize++;
                     if(measusrementBatchSize = measurementMaxBatchSize)
@@ -46,8 +47,8 @@ const scrapeAndPublish = device => {
                         measusrementBatchSize=0;
                     }
                     setTimeout(()=> {
-                        console.log(measurement);
-                        PublishJSONraw(measurement);  
+                        console.log(device);
+                        PublishJSONraw(device);  
                     }, measurementIndex * throttleTimeMS);
                 }
             })
