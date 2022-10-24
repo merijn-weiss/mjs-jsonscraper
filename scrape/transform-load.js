@@ -43,22 +43,30 @@ mqtt.MQTTClient.client.on('message', function(topic, message) {
 // JSON CONVERSION
 const pmMaxValue = 65000;
 function ConvertRawJSON(rawJSON) {
-    let measurement = rawJSON.measurement;
-    let convertedJSON = {};
-
+    // DEVICE
+    let deviceSettings = JSON.parse(JSON.stringify(rawJSON.device));
+    let measurement = rawJSON;
     delete measurement.row;
+    delete measurement.device;
+    delete measurement.scrapeDataURL;
+
+    let convertedJSON = {};
     convertedJSON.raw = JSON.stringify(measurement);
 
     // MEASUREMENT
     convertedJSON.timestamp = (new Date(measurement.timestamp + '+0:00')).toISOString(); // MJS raw provides the date in UTC but does not store the timestamp in ISO 8601 
 
-    // DEVICE
-    let deviceSettings = rawJSON;//GetDeviceSettings(rawJSON.id);
 
     convertedJSON.device = {};
     convertedJSON.device.id = deviceSettings.id;
     convertedJSON.device.type = deviceSettings.type;
     convertedJSON.device.firmware = measurement.firmware_version;
+
+    if(measurement.supply != undefined)
+        convertedJSON.device.powerSupply = measurement.supply;
+    
+    if(measurement.battery != undefined)
+        convertedJSON.device.batteryVoltage = measurement.battery;
 
     if(measurement.extra != undefined && deviceSettings.format.solarV != undefined)
         convertedJSON.device.solarVoltage = measurement.extra[parseInt(deviceSettings.format.solarV)];
