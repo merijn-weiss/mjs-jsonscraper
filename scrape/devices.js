@@ -50,7 +50,7 @@ async function GetDevices () {
 
   for(let device of allDevices)
   {
-    let esDevice = esDevices.filter((obj) => obj.key === device.id);
+    let esDevice = esDevices.filter((obj) => obj.key === parseInt(device.id));
     
     if(esDevice.length != 0)
       device.lastMeasurement = esDevice[0].max_timestamp.value_as_string;
