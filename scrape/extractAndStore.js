@@ -36,7 +36,9 @@ const scrapeAndPublish = device => {
                     convertedMeasurements.push(ConvertRawJSON(measurement));
                 }
 
-                StoreConvertedMeasurements(convertedMeasurements);
+                if(convertedMeasurements.length > 0)
+                    StoreConvertedMeasurements(convertedMeasurements);
+                    
                 jsonsPublished = convertedMeasurements.length;
             })
             .catch(err => {
