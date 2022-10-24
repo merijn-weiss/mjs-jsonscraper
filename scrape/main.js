@@ -1,5 +1,6 @@
 const devices = require('./devices.js');
-const extract = require('./extract.js');
+//const extract = require('./extract.js');
+const extract = require('./extractAndStore.js');
 
 const defaultWait = 300*1000; // 5 minutes
 function ScrapeDevices()
@@ -15,8 +16,7 @@ function ScrapeDevices()
                     {
                         totalJSON = deviceStatus[0] + totalJSON;
                     }
-                    console.log(totalJSON);
-                    let scrapeSleepTime = defaultWait + (totalJSON * 100); // for each JSON we wait for 0.1 second
+                    let scrapeSleepTime = defaultWait;//+ (totalJSON * 100); // for each JSON we wait for 0.1 second
 
                     console.log(`***** Scrape Completed. Start Sleep for ${Math.round(scrapeSleepTime/1000)} seconds *****`);
                     setTimeout(ScrapeDevices, scrapeSleepTime);        
@@ -26,7 +26,7 @@ function ScrapeDevices()
             console.error(err);
             setTimeout(ScrapeDevices, defaultWait); // restart after an error the cycle. E.g. to recover from a network failure.
         }
-            )
+        )
 }
 
 ScrapeDevices();

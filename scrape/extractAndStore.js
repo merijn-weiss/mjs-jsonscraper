@@ -1,11 +1,8 @@
 'use strict';
+require('dotenv').config();
+
 const axios = require('axios');
 const {ConvertRawJSON} = require('./transform.js');
-
-const mqtt = require('./clientMQTT.js')
-
-mqtt.MQTTClient();
-const topicRaw = mqtt.MQTTTopics.raw.topic;
 
 async function ScrapeMJS(devices)
 {
@@ -33,27 +30,14 @@ const scrapeAndPublish = device => {
                 console.log('Date in Response header:', headerDate);
 
                 const measurements = res.data;
-
-                let measurementIndex = 0;
-                const measurementMaxBatchSize = 500;
-                let measusrementBatchSize = 0;
-
-                const throttleTimeMS = 100; // We pace publishing the JSON to prevent overloading MQQT
+                let convertedMeasurements = [];
                 for(let measurement of measurements) {
                     measurement.device = device;
-
-                    jsonsPublished++;
-                    measusrementBatchSize++;
-                    if(measusrementBatchSize = measurementMaxBatchSize)
-                    {
-                        measurementIndex++;
-                        measusrementBatchSize=0;
-                    }
-                    setTimeout(()=> {
-                        console.log(measurement);
-                        PublishJSONraw(measurement);
-                    }, measurementIndex * throttleTimeMS);
+                    convertedMeasurements.push(ConvertRawJSON(measurement));
                 }
+
+                StoreConvertedMeasurements(convertedMeasurements);
+                jsonsPublished = convertedMeasurements.length;
             })
             .catch(err => {
                 console.log('Error: ', err.message);
@@ -64,10 +48,31 @@ const scrapeAndPublish = device => {
     })
   }
 
-async function PublishJSONraw(rawJSON)
+// ELASTIC
+const {ElasticClient} = require('./clientES.js');
+const elasticConfig = require('config').get('elastic');
+
+ElasticClient.info()
+  .then(response => console.log(response))
+  .catch(error => console.error(error))
+
+async function StoreConvertedMeasurements(convertedMeasurements)
 {
-    if(mqtt.MQTTClient.client.connected)
-        mqtt.MQTTClient.client.publish(topicRaw, JSON.stringify(rawJSON));
+    console.log(convertedMeasurements);
+
+    const b = ElasticClient.helpers.bulk({
+        datasource: convertedMeasurements,
+        onDocument (doc) {
+          return {
+            index: { _index: elasticConfig.index }
+          }
+        },
+        onDrop (doc) {
+          b.abort()
+        }
+      })
+      
+      console.log(await b)
 }
 
 module.exports = {
