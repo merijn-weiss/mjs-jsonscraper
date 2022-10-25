@@ -1,3 +1,5 @@
 .env
 config/tst.json
 config/settings.devices.tst.json
+config/_settings.devices.json
+mjs_input
