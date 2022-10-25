@@ -28,7 +28,8 @@
       "soilM10": "9",
       "soilT10": "10",
       "soilM40": "11",
-      "soilT40": "12"
+      "soilT40": "12",
+      "solarV": "13"
     },
     "calibration": {
       "soil10M": {
@@ -112,7 +113,8 @@
       "soilM10": "1",
       "soilT10": "0",
       "soilM40": "3",
-      "soilT40": "2"
+      "soilT40": "2",
+      "solarV": "4"
     },
     "calibration": {
       "soil10M": {
@@ -693,7 +695,8 @@
       "soilM10": "0",
       "soilT10": "1",
       "soilM40": "2",
-      "soilT40": "3"
+      "soilT40": "3",
+      "solarV": "4"
     },
     "calibration": {
       "soil10M": {
