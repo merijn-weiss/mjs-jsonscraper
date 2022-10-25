@@ -668,6 +668,12 @@
   {
     "id": "843",
     "type": "air"
+  },    
+  {
+    "id": "default",
+    "type": "air",
+    "format": {},
+    "calibration": {}
   },
   {
     "id": "default",
