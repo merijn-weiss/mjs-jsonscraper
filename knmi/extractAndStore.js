@@ -2,39 +2,53 @@
 require('dotenv').config();
 
 const axios = require('axios');
-const {ConvertRawJSON} = require('./transform.js');
+//const {ConvertRawJSON} = require('./transform.js');
 
-async function ScrapeMJS(devices)
+async function ScrapeKNMI()
 {
     return new Promise(async (resolve) => {
-        let devicesToScrape = [];
-        for(let device of devices) {
-            if(device.scrapeDataURL != null)
-                devicesToScrape.push(device);
-        }
-
-        const status = await Promise.all(devicesToScrape.map(device => scrapeAndPublish(device)))
-        resolve(status);
+        scrapeAndPublish();
+        //resolve(status);
     });
 }
 
-const scrapeAndPublish = device => {
+let stationID = 260;
+let startDate = '2022090100';
+let endDate = '2022102800';
+
+const scrapeAndPublish = () => {
     return new Promise(async (resolve) => {
         let jsonsPublished = 0;
-        
-        axios.get(device.scrapeDataURL)
+        let scrapeDataURL = `https://www.daggegevens.knmi.nl/klimatologie/uurgegevens?stns=${stationID}&fmt=json&vars=ALL&start=${startDate}&end=${endDate}`;
+
+        axios.get(scrapeDataURL)
             .then(res => {
-                console.log(device.scrapeDataURL);
+                console.log(scrapeDataURL);
                 const headerDate = res.headers && res.headers.date ? res.headers.date : 'no response date';
                 console.log('Status Code:', res.status);
                 console.log('Date in Response header:', headerDate);
 
                 const measurements = res.data;
                 let convertedMeasurements = [];
+                
                 for(let measurement of measurements) {
-                    measurement.device = device;
-                    convertedMeasurements.push(ConvertRawJSON(measurement));
+                    
+                    measurement.T = measurement.T / 10;
+
+                    measurement.RH = (measurement.RH === -1) ? 0.005 : measurement.RH/10;
+
+                    const measurementDate = new Date(measurement.date);
+                    measurementDate.setTime(measurementDate.getTime() + measurement.hour * 60 * 60 * 1000);
+                    measurement.timestamp = measurementDate.toJSON();
+
+                    delete measurement.date;
+                    delete measurement.hour;
+
+
+                    convertedMeasurements.push(measurement);
                 }
+
+                console.log(convertedMeasurements);
 
                 if(convertedMeasurements.length > 0)
                     StoreConvertedMeasurements(convertedMeasurements);
@@ -45,13 +59,13 @@ const scrapeAndPublish = device => {
                 console.log('Error: ', err.message);
             })
             .finally(() => {
-                resolve([jsonsPublished,`Done with ${device.id}. ${jsonsPublished} JSONs published`]);                
+                resolve([jsonsPublished,`Done with KNMI Scrape. ${jsonsPublished} JSONs published`]);                
             });
     })
   }
 
 // ELASTIC
-const {ElasticClient} = require('./clientES.js');
+const {ElasticClient} = require('../scrape/clientES.js');
 const elasticConfig = require('config').get('elastic');
 
 ElasticClient.info()
@@ -60,13 +74,13 @@ ElasticClient.info()
 
 async function StoreConvertedMeasurements(convertedMeasurements)
 {
-    console.log(convertedMeasurements);
+    console.log(elasticConfig.index.knmi);
 
     const b = ElasticClient.helpers.bulk({
         datasource: convertedMeasurements,
         onDocument (doc) {
           return {
-            index: { _index: elasticConfig.index.mjs }
+            index: { _index: elasticConfig.index.knmi }
           }
         },
         onDrop (doc) {
@@ -79,7 +93,7 @@ async function StoreConvertedMeasurements(convertedMeasurements)
 
 module.exports = {
     //ScrapeMJS,
-    ScrapeMJS: async (devices) => {
-        return await ScrapeMJS(devices)
+    ScrapeKNMI: async () => {
+        return await ScrapeKNMI()
     }
 }

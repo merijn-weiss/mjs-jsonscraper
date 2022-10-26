@@ -6,8 +6,6 @@ require('dotenv').config();
 // Setup the Client
 const { Client } = require('@elastic/elasticsearch');
 
-
-
 const ElasticClient = new Client({
   cloud: {
     id: process.env.ES_CLOUDID

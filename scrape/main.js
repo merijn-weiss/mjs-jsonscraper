@@ -1,5 +1,4 @@
 const devices = require('./devices.js');
-//const extract = require('./extract.js');
 const extract = require('./extractAndStore.js');
 
 const defaultWait = 300*1000; // 5 minutes
