@@ -51,8 +51,6 @@ ElasticClient.info()
 
 async function StoreJSONonElastic(convertedJSON)
 {
-    console.log(convertedJSON);
-
     await ElasticClient.index({
         index: elasticConfig.index,
         body: convertedJSON

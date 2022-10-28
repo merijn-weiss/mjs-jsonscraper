@@ -34,7 +34,7 @@ function GetMJSDataUrlDevices(device) {
 
 async function GetDevices () {
   const esSearchResult = await ElasticClient.search({
-    index: elasticConfig.index,
+    index: elasticConfig.index.mjs,
     aggs:
     {
         devices :

@@ -25,10 +25,10 @@
     "id": "2021",
     "type": "soil",
     "format": {
-      "soilM10": "9",
-      "soilT10": "10",
-      "soilM40": "11",
-      "soilT40": "12",
+      "soil10M": "9",
+      "soil10T": "10",
+      "soil40M": "11",
+      "soil40T": "12",
       "solarV": "13"
     },
     "calibration": {
@@ -110,10 +110,10 @@
     "id": "2059",
     "type": "soil",
     "format": {
-      "soilM10": "1",
-      "soilT10": "0",
-      "soilM40": "3",
-      "soilT40": "2",
+      "soil10M": "1",
+      "soil10T": "0",
+      "soil40M": "3",
+      "soil40T": "2",
       "solarV": "4"
     },
     "calibration": {
@@ -698,10 +698,10 @@
     "id": "default",
     "type": "soil",
     "format": {
-      "soilM10": "0",
-      "soilT10": "1",
-      "soilM40": "2",
-      "soilT40": "3",
+      "soil10M": "0",
+      "soil10T": "1",
+      "soil40M": "2",
+      "soil40T": "3",
       "solarV": "4"
     },
     "calibration": {
