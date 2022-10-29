@@ -1,0 +1,21 @@
+[
+    {   "id": "757", "type": "soil",
+        "calibration": {
+            "soilM1": {"a": "0.047", "b": "-4.7"},
+            "soilT1": {"a": "0.25",  "b": "-20"},
+            "soilM2": {"a": "0.047", "b": "-5.8"},
+            "soilT2": {"a": "0.25",  "b": "-20"}
+        }
+    },
+
+    {   "id": "842",  "type": "air"},
+    {   "id": "843",  "type": "air"},
+
+    {   "id": "2086", "type": "greenroof"},
+    {   "id": "2087", "type": "greenroof"},
+    {   "id": "2088", "type": "greenroof"},
+    {   "id": "2089", "type": "greenroof"},
+    {   "id": "2090", "type": "greenroof"},
+    {   "id": "2103", "type": "greenroof"},
+    {   "id": "2104", "type": "greenroof"}
+]

@@ -1,9 +1,7 @@
 //* Module to get all configuration parameters for all Devices */
-
 'use strict'
-require('dotenv').config();
 
-const {ElasticClient} = require('./clientES.js');
+const {ElasticClient} = require('../util/clientES.js');
 const config = require('config');
 const {allDevices} = require('./deviceSettings.js');
 const elasticConfig = config.get('elastic');

@@ -65,7 +65,7 @@ const scrapeAndPublish = () => {
   }
 
 // ELASTIC
-const {ElasticClient} = require('../scrape/clientES.js');
+const {ElasticClient} = require('../util/clientES.js');
 const elasticConfig = require('config').get('elastic');
 
 ElasticClient.info()

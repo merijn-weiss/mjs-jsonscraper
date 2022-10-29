@@ -8,10 +8,7 @@ To run the application you need to create a .env file in the root folder with th
     ES_USERNAME=
     ES_PASSWORD=
 
-Once done you need to start 2 processeses:
+Once done you need to start 1 process
 
-1. node scrape/transform-load.js
-This will start an MQTT client that subscribes to topics as configured in default.json. Messages received will be transformed and stored into Elastic Search
-
-2. node scrape/main.js
-This will start a process that periodically will determine if there are new measurements on MJS that are not yet in Elastic Search. Data is retrieved and published in the MQTT topic as defined in default.json
+1. node mjs/main.js
+This will start a process that periodically will determine if there are new measurements on MJS that are not yet in Elastic Search. Data is retrieved and published on the MJS index as defined in default.json

@@ -77,13 +77,13 @@ function ConvertRawJSON(rawJSON) {
 }
 
 function ConvertGreenRoofValues(deviceSettings, rawExtra) {
-    let rawTemperature = rawExtra[parseInt(deviceSettings.format.soilT ) ];
-    let aTemp = parseFloat(deviceSettings.calibration.soilT.a);
-    let bTemp = parseFloat(deviceSettings.calibration.soilT.b);
+    let rawTemperature = rawExtra[parseInt(deviceSettings.format.soilT1 ) ];
+    let aTemp = parseFloat(deviceSettings.calibration.soilT1.a);
+    let bTemp = parseFloat(deviceSettings.calibration.soilT1.b);
 
-    let rawHumidity = rawExtra[parseInt(deviceSettings.format.soilM ) ];
-    let aHum = parseFloat(deviceSettings.calibration.soilM.a);
-    let bHum = parseFloat(deviceSettings.calibration.soilM.b);
+    let rawHumidity = rawExtra[parseInt(deviceSettings.format.soilM1 ) ];
+    let aHum = parseFloat(deviceSettings.calibration.soilM1.a);
+    let bHum = parseFloat(deviceSettings.calibration.soilM1.b);
 
     return {
         temperature: (rawTemperature * aTemp) + bTemp,
@@ -92,21 +92,21 @@ function ConvertGreenRoofValues(deviceSettings, rawExtra) {
 }
 
 function ConvertSoilValues(deviceSettings, rawExtra) {
-    let rawTemperature10 = rawExtra[parseInt(deviceSettings.format.soil10T ) ];
-    let aTemp10 = parseFloat(deviceSettings.calibration.soil10T.a);
-    let bTemp10 = parseFloat(deviceSettings.calibration.soil10T.b);
+    let rawTemperature10 = rawExtra[parseInt(deviceSettings.format.soilT1 ) ];
+    let aTemp10 = parseFloat(deviceSettings.calibration.soilT1.a);
+    let bTemp10 = parseFloat(deviceSettings.calibration.soilT1.b);
 
-    let rawHumidity10 = rawExtra[parseInt(deviceSettings.format.soil10M ) ];
-    let aHum10 = parseFloat(deviceSettings.calibration.soil10M.a);
-    let bHum10 = parseFloat(deviceSettings.calibration.soil10M.b);
+    let rawHumidity10 = rawExtra[parseInt(deviceSettings.format.soilM1 ) ];
+    let aHum10 = parseFloat(deviceSettings.calibration.soilM1.a);
+    let bHum10 = parseFloat(deviceSettings.calibration.soilM1.b);
 
-    let rawTemperature40 = rawExtra[parseInt(deviceSettings.format.soil40T ) ];
-    let aTemp40 = parseFloat(deviceSettings.calibration.soil40T.a);
-    let bTemp40 = parseFloat(deviceSettings.calibration.soil40T.b);
+    let rawTemperature40 = rawExtra[parseInt(deviceSettings.format.soilT2 ) ];
+    let aTemp40 = parseFloat(deviceSettings.calibration.soilT2.a);
+    let bTemp40 = parseFloat(deviceSettings.calibration.soilT2.b);
 
-    let rawHumidity40 = rawExtra[parseInt(deviceSettings.format.soil40M ) ];
-    let aHum40 = parseFloat(deviceSettings.calibration.soil40M.a);
-    let bHum40 = parseFloat(deviceSettings.calibration.soil40M.b);
+    let rawHumidity40 = rawExtra[parseInt(deviceSettings.format.soilM2 ) ];
+    let aHum40 = parseFloat(deviceSettings.calibration.soilM2.a);
+    let bHum40 = parseFloat(deviceSettings.calibration.soilM2.b);
 
     return {
         temperature10: (rawTemperature10 * aTemp10) + bTemp10,

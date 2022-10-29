@@ -1,6 +1,5 @@
 //* Module to get all configuration parameters for all Devices */
 'use strict'
-require('dotenv').config();
 
 const fs = require('fs');
 const config = require('config');

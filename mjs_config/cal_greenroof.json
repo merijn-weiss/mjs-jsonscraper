@@ -1,0 +1,188 @@
+[
+ {
+  "id": "default",
+  "type": "",
+  "calibration": {
+   "soilM": {
+    "a": "0.049",
+    "b": "-1.0"
+   },
+   "soilT": {
+    "a": "0.25",
+    "b": "-20"
+   }
+  },
+  "location": {
+   "orientation": "",
+   "insulation": ""
+  },
+  "raw": {
+   "soilM": {
+    "air": "22",
+    "water": ""
+   },
+   "soilT": {
+    "water": "",
+    "air": ""
+   },
+   "airT": {
+    "air": ""
+   }
+  }
+ },
+ {
+  "id": "2053",
+  "type": "greenroof",
+  "calibration": {
+   "soilM": {
+    "a": "0.049",
+    "b": "-0.8"
+   },
+   "soilT": {
+    "a": "0.25",
+    "b": "-20"
+   }
+  },
+  "location": {
+   "orientation": "",
+   "insulation": ""
+  },
+  "raw": {
+   "soilM": {
+    "air": "20",
+    "water": "988"
+   },
+   "soilT": {
+    "water": "148",
+    "air": "153"
+   },
+   "airT": {
+    "air": "21"
+   }
+  }
+ },
+ {
+  "id": "2054",
+  "type": "greenroof",
+  "calibration": {
+   "soilM": {
+    "a": "0.049",
+    "b": "-0.9"
+   },
+   "soilT": {
+    "a": "0.25",
+    "b": "-20"
+   }
+  },
+  "location": {
+   "orientation": "",
+   "insulation": ""
+  },
+  "raw": {
+   "soilM": {
+    "air": "22",
+    "water": "979"
+   },
+   "soilT": {
+    "water": "148",
+    "air": "162"
+   },
+   "airT": {
+    "air": "20.3"
+   }
+  }
+ },
+ {
+  "id": "2055",
+  "type": "greenroof",
+  "calibration": {
+   "soilM": {
+    "a": "0.049",
+    "b": "-1.3"
+   },
+   "soilT": {
+    "a": "0.25",
+    "b": "-20"
+   }
+  },
+  "location": {
+   "orientation": "",
+   "insulation": ""
+  },
+  "raw": {
+   "soilM": {
+    "air": "34",
+    "water": "985"
+   },
+   "soilT": {
+    "water": "148",
+    "air": "159"
+   },
+   "airT": {
+    "air": "20.6"
+   }
+  }
+ },
+ {
+  "id": "2056",
+  "type": "greenroof",
+  "calibration": {
+   "soilM": {
+    "a": "0.049",
+    "b": "-1.5"
+   },
+   "soilT": {
+    "a": "0.25",
+    "b": "-20"
+   }
+  },
+  "location": {
+   "orientation": "",
+   "insulation": ""
+  },
+  "raw": {
+   "soilM": {
+    "air": "35",
+    "water": "995"
+   },
+   "soilT": {
+    "water": "150",
+    "air": "150"
+   },
+   "airT": {
+    "air": "18.7"
+   }
+  }
+ },
+ {
+  "id": "2102",
+  "type": "greenroof",
+  "calibration": {
+   "soilM": {
+    "a": "0.049",
+    "b": "-0.5"
+   },
+   "soilT": {
+    "a": "0.25",
+    "b": "-20"
+   }
+  },
+  "location": {
+   "orientation": "",
+   "insulation": ""
+  },
+  "raw": {
+   "soilM": {
+    "air": "15",
+    "water": ""
+   },
+   "soilT": {
+    "water": "",
+    "air": "171"
+   },
+   "airT": {
+    "air": ""
+   }
+  }
+ }
+]

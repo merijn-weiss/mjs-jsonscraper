@@ -2,22 +2,22 @@
     {
         "id": "default",
         "type": "greenroof",
-        "format": {"soilM": "0","soilT": "1","solarV": "2"},
+        "format": {"soilM1": "0","soilT1": "1","solarV": "2"},
         "calibration": {
-            "soilM": {"a": "0.049", "b": "-1.0"},
-            "soilT": {"a": "0.25",  "b": "-20"}
+            "soilM1": {"a": "0.049", "b": "-1.0"},
+            "soilT1": {"a": "0.25",  "b": "-20"}
         }
     },
 
     {
         "id": "default",
         "type": "soil",
-        "format": {"soil10M": "0","soil10T": "1","soil40M": "2","soil40T": "3","solarV": "4"},
+        "format": {"soilM1": "0","soilT1": "1","soilM2": "2","soilT2": "3","solarV": "4"},
         "calibration": {
-            "soil10M": {"a": "0.049", "b": "-1.0"},
-            "soil10T": {"a": "0.25",  "b": "-20"},
-            "soil40M": {"a": "0.049", "b": "-1.0"},
-            "soil40T": {"a": "0.25",  "b": "-20"}
+            "soilM1": {"a": "0.049", "b": "-1.0"},
+            "soilT1": {"a": "0.25",  "b": "-20"},
+            "soilM2": {"a": "0.049", "b": "-1.0"},
+            "soilT2": {"a": "0.25",  "b": "-20"}
         }
     },
 

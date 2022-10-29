@@ -1,5 +1,4 @@
 'use strict';
-require('dotenv').config();
 
 const axios = require('axios');
 const {ConvertRawJSON} = require('./transform.js');
@@ -51,7 +50,7 @@ const scrapeAndPublish = device => {
   }
 
 // ELASTIC
-const {ElasticClient} = require('./clientES.js');
+const {ElasticClient} = require('../util/clientES.js');
 const elasticConfig = require('config').get('elastic');
 
 ElasticClient.info()

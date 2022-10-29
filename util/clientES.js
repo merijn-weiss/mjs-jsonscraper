@@ -1,7 +1,5 @@
 //* Module setup the ElasticClient */
-
 'use strict'
-require('dotenv').config();
 
 // Setup the Client
 const { Client } = require('@elastic/elasticsearch');

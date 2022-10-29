@@ -1,6 +1,5 @@
 //* Module setup the MQTTClient */
 'use strict'
-require('dotenv').config();
 
 // Setup the Client
 const mqtt = require('mqtt');

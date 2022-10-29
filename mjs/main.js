@@ -1,3 +1,4 @@
+require('dotenv').config();
 const devices = require('./devices.js');
 const extract = require('./extractAndStore.js');
 
