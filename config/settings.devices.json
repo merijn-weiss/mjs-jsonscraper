@@ -671,6 +671,12 @@
   },
   {
     "id": "default",
+    "type": "air",
+    "format": {},
+    "calibration": {}
+  },
+  {
+    "id": "default",
     "type": "soil",
     "format": {
       "soilM1": "0",
