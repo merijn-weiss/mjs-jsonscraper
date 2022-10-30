@@ -232,10 +232,10 @@
   "type": "soil_moisture",
   "sensor": "PTSW10",
   "format": {
-   "soilM10": "1",
-   "soilT10": "0",
-   "soilM40": "3",
-   "soilT40": "2"
+   "soilM10": "2",
+   "soilT10": "1",
+   "soilM40": "0",
+   "soilT40": "3"
   },
   "location": {
    "soil": "sand",

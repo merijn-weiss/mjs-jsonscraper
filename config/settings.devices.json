@@ -110,10 +110,10 @@
     "id": "2059",
     "type": "soil",
     "format": {
-      "soilM1": "1",
-      "soilT1": "0",
-      "soilM2": "3",
-      "soilT2": "2",
+      "soilM1": "2",
+      "soilT1": "1",
+      "soilM2": "0",
+      "soilT2": "3",
       "solarV": "4"
     },
     "calibration": {
@@ -668,12 +668,6 @@
   {
     "id": "843",
     "type": "air"
-  },
-  {
-    "id": "default",
-    "type": "air",
-    "format": {},
-    "calibration": {}
   },
   {
     "id": "default",
