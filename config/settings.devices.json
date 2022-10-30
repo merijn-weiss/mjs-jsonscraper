@@ -716,5 +716,11 @@
         "b": "-20"
       }
     }
+  },
+  {
+    "id": "default",
+    "type": "air",
+    "format": {},
+    "calibration": {}
   }
 ]

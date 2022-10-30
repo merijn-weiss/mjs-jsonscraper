@@ -8,6 +8,12 @@
         }
     },
 
+    {
+        "id": "default",
+        "type": "air",
+        "format": {},
+        "calibration": {}
+    },
     {   "id": "842",  "type": "air"},
     {   "id": "843",  "type": "air"},
 
