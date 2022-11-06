@@ -33,14 +33,13 @@ async function ScrapeMJS(devices)
 const scrapeAndPublish = device => {
     return new Promise((resolve, reject) => {
         let jsonsPublished = 0;
-                
+        
         axiosRateLimited.get(device.scrapeDataURL, { timeout: 5000 })
             .then(res => {
                 convertedMeasurementIDs.push(device.id);
-        
+
                 console.log();
                 console.log(device.scrapeDataURL);
-                
                 //const headerDate = res.headers && res.headers.date ? res.headers.date : 'no response date';
                 //console.log('Status Code:', res.status);
                 //console.log('Date in Response header:', headerDate);
@@ -78,6 +77,8 @@ const scrapeAndPublish = device => {
                 jsonsPublished = convertedMeasurements.length;
             })
             .catch(err => {
+                console.log();
+                console.log(device.scrapeDataURL);
                 reject(console.log(`Error for ${device.id}: ${err.message}`));
             })
             .finally(() => {
