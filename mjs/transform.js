@@ -16,7 +16,6 @@ function ConvertRawJSON(rawJSON) {
     // MEASUREMENT
     convertedJSON.timestamp = (new Date(measurement.timestamp + '+0:00')).toISOString(); // MJS raw provides the date in UTC but does not store the timestamp in ISO 8601 
 
-
     convertedJSON.device = {};
     convertedJSON.device.id = deviceSettings.id;
     convertedJSON.device.type = deviceSettings.type;

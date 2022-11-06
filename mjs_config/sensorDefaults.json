@@ -1,0 +1,66 @@
+[
+    {
+        "id": "default",
+        "type": "unknown",
+        "format": {},
+        "calibration": {}
+    },
+    {
+        "id": "default",
+        "type": "base",
+        "format": {},
+        "calibration": {}
+    },
+    {
+        "id": "default",
+        "type": "air",
+        "format": {},
+        "calibration": {}
+    },
+    {
+        "id": "default",
+        "type": "soil",
+        "format": {
+          "soilM1": "0",
+          "soilT1": "1",
+          "soilM2": "2",
+          "soilT2": "3"
+        },
+        "calibration": {
+          "soilM1": {
+            "a": "0.049",
+            "b": "-5.4"
+          },
+          "soilT1": {
+            "a": "0.25",
+            "b": "-20.00"
+          },
+          "soilM2": {
+            "a": "0.049",
+            "b": "-5.4"
+          },
+          "soilT2": {
+            "a": "0.25",
+            "b": "-20"
+          }
+        }
+    },
+    {
+        "id": "default",
+        "type": "greenroof",
+        "format": {
+          "soilM1": "0",
+          "soilT1": "1"
+        },
+        "calibration": {
+          "soilM1": {
+            "a": "0.049",
+            "b": "-1.0"
+          },
+          "soilT1": {
+            "a": "0.25",
+            "b": "-20"
+          }
+        }
+    }    
+]
