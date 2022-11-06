@@ -6,7 +6,7 @@ const devicesConfig = config.get('mjsDevices');
 
 const axios = require('axios');
 const rateLimit = require('axios-rate-limit');
-const axiosRateLimited = rateLimit(axios.create(), { maxRequests: 1, perMilliseconds: 5000})
+const axiosRateLimited = rateLimit(axios.create(), { maxRequests: 5, perMilliseconds: 1000})
 
 const {ConvertRawJSON} = require('./transform.js');
 
