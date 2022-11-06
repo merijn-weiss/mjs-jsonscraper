@@ -50,10 +50,7 @@ const scrapeAndPublish = device => {
                     if(_.isObject(measurement))
                     {
                         measurement.device = device;
-                        convertedMeasurements.push(ConvertRawJSON(measurement));    
-                    }
-                    else {
-                        console.log(measurements);
+                        convertedMeasurements.push(ConvertRawJSON(measurement));                            
                     }
                 }
 
@@ -65,7 +62,7 @@ const scrapeAndPublish = device => {
                     for(let deviceID of convertedMeasurementIDs)
                     {
                         console.log(deviceID);
-                        (mjsDevices.filter((obj) => obj.id === deviceID)[0]).lastScrape = new Date();    
+                        (mjsDevices.filter((obj) => obj.id === deviceID)[0]).lastScrape = new Date();
                     }
                 
                     fs.writeFileSync(deviceSettingsFile, JSON.stringify(mjsDevices, null, 2));

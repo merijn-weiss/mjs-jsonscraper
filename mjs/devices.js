@@ -62,15 +62,18 @@ function GetMJSDataUrlDevices(device) {
   {
     if(lastMeasurement === undefined)
     {
+      console.log(`${device.id} has no measurements (yet)`)
       dataURL = `https://meetjestad.net/data/?type=sensors&format=json&ids=${device.id}`;
     }
     else
     {
       let nextMeasurement = new Date(lastMeasurement);
       nextMeasurement.setTime(lastMeasurement.getTime() + 60*1000); //Add one minute
+      let beginFilterISO = nextMeasurement.toISOString();
+      let beginFilter = beginFilterISO.slice(0, beginFilterISO.length - 5); // MJS data does not seem to like the .000Z part of the time
 
-      console.log(`${device.id} has data lag of ${lastMeasurementLag} minutes `)
-      dataURL = `https://meetjestad.net/data/?type=sensors&format=json&ids=${device.id}&begin=${nextMeasurement.toISOString()}`;  
+      console.log(`${device.id} has data lag of ${lastMeasurementLag} minutes`)
+      dataURL = `https://meetjestad.net/data/?type=sensors&format=json&ids=${device.id}&begin=${beginFilter}`;
     }
     return dataURL;
   }
