@@ -6,7 +6,7 @@ const devicesConfig = config.get('mjsDevices');
 
 const axios = require('axios');
 const rateLimit = require('axios-rate-limit');
-const axiosRateLimited = rateLimit(axios.create(), { maxRequests: 5, perMilliseconds: 1000})
+const axiosRateLimited = rateLimit(axios.create(), { maxRequests: 4, perMilliseconds: 1000})
 
 const {ConvertRawJSON} = require('./transform.js');
 
@@ -22,6 +22,7 @@ async function ScrapeMJS(devices)
     let devicesToScrape = [];
 
     for(let device of devices) {
+        device.source = 'MJS';
         if(device.scrapeDataURL != null)
             devicesToScrape.push(device);
     }
@@ -50,22 +51,13 @@ const scrapeAndPublish = device => {
                     if(_.isObject(measurement))
                     {
                         measurement.device = device;
-                        convertedMeasurements.push(ConvertRawJSON(measurement));                            
+                        convertedMeasurements.push(ConvertRawJSON(device.source, measurement));                            
                     }
                 }
 
-                if(convertedMeasurements.length > 100000 || devicesLeftToScrape < 5 || convertedMeasurementIDs.length === 50)
+                if(convertedMeasurements.length > 10000 || devicesLeftToScrape < 5 || convertedMeasurementIDs.length === 50)
                 {
-                    StoreConvertedMeasurements(convertedMeasurements);
-
-                    let mjsDevices = JSON.parse(fs.readFileSync(deviceSettingsFile));
-                    for(let deviceID of convertedMeasurementIDs)
-                    {
-                        console.log(deviceID);
-                        (mjsDevices.filter((obj) => obj.id === deviceID)[0]).lastScrape = new Date();
-                    }
-                
-                    fs.writeFileSync(deviceSettingsFile, JSON.stringify(mjsDevices, null, 2));
+                    StoreConvertedMeasurements(convertedMeasurements, _.clone(convertedMeasurementIDs)).catch(console.log);
 
                     convertedMeasurements = [];
                     convertedMeasurementIDs = [];
@@ -93,23 +85,30 @@ ElasticClient.info()
   .then(response => console.log(response))
   .catch(error => console.error(error))
 
-async function StoreConvertedMeasurements(convertedMeasurements)
+async function StoreConvertedMeasurements(convertedMeasurements, convertedMeasurementIDs)
 {
-    //console.log(convertedMeasurements);
-
     const b = ElasticClient.helpers.bulk({
         datasource: convertedMeasurements,
         onDocument (doc) {
-          return {
+            return {
             index: { _index: elasticConfig.index.mjs }
-          }
+            }
         },
         onDrop (doc) {
-          b.abort()
+            b.abort()
         }
-      })
-      
+        })
+        
+    console.log(`### Stored ConvertedMeasurements for ${convertedMeasurements.length} measurements. ###`);
     console.log(await b)
+
+    let mjsDevices = JSON.parse(fs.readFileSync(deviceSettingsFile));
+    for(let deviceID of convertedMeasurementIDs)
+    {
+        (mjsDevices.filter((obj) => obj.id === deviceID)[0]).lastScrape = new Date();
+    }
+
+    fs.writeFileSync(deviceSettingsFile, JSON.stringify(mjsDevices, null, 2));
 }
 
 module.exports = {

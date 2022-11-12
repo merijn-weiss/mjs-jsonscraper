@@ -2,7 +2,7 @@
 
 // JSON CONVERSION
 const pmMaxValue = 65000;
-function ConvertRawJSON(rawJSON) {
+function ConvertRawJSON(source, rawJSON) {
     // DEVICE
     let deviceSettings = JSON.parse(JSON.stringify(rawJSON.device));
     let measurement = rawJSON;
@@ -17,6 +17,7 @@ function ConvertRawJSON(rawJSON) {
     convertedJSON.timestamp = (new Date(measurement.timestamp + '+0:00')).toISOString(); // MJS raw provides the date in UTC but does not store the timestamp in ISO 8601 
 
     convertedJSON.device = {};
+    convertedJSON.device.source = source;
     convertedJSON.device.id = deviceSettings.id;
     convertedJSON.device.type = deviceSettings.type;
     convertedJSON.device.firmware = measurement.firmware_version;

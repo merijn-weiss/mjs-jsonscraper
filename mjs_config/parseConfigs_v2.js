@@ -36,12 +36,18 @@ function ParseConfig() {
             deviceSettings.push(device);            
     } 
 
-    // DIRTY FIX, VALUES MISSING FROM CAL
+    // DIRTY FIX, VALUES MISSING /INCORRECT FROM node_meta_data
     (deviceSettings.filter((obj) => obj.id === 'default' && obj.type === 'greenroof')[0]).format.solarV = "2";
     (deviceSettings.filter((obj) => obj.id === 'default' && obj.type === 'soil')[0]).format.solarV = "4";
 
     (deviceSettings.filter((obj) => obj.id === '2021')[0]).format.solarV = "13";
+    (deviceSettings.filter((obj) => obj.id === '2059')[0]).format.soilM1 = "2";
+    (deviceSettings.filter((obj) => obj.id === '2059')[0]).format.soilT1 = "1";
+    (deviceSettings.filter((obj) => obj.id === '2059')[0]).format.soilM2 = "0";
+    (deviceSettings.filter((obj) => obj.id === '2059')[0]).format.soilT2 = "3";
     (deviceSettings.filter((obj) => obj.id === '2059')[0]).format.solarV = "4";
+
+    delete (deviceSettings.filter((obj) => obj.id === '0'));
 
     deviceSettings =  _.sortBy(deviceSettings, 'id');
 

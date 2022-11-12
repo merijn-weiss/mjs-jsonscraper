@@ -2,13 +2,11 @@
 require('dotenv').config();
 
 const axios = require('axios');
-//const {ConvertRawJSON} = require('./transform.js');
 
 async function ScrapeKNMI()
 {
     return new Promise(async (resolve) => {
         scrapeAndPublish();
-        //resolve(status);
     });
 }
 

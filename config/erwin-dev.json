@@ -1,6 +1,9 @@
 {
     "elastic": {
-      "index": "mjs-dev-erwin"
+      "index": {
+        "mjs": "mjs-dev-erwin",
+        "knmi": "knmi-dev"
+      }
     },
     "mqtt":
     {

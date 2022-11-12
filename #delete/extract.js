@@ -1,6 +1,5 @@
 'use strict';
 const axios = require('axios');
-const {ConvertRawJSON} = require('./transform.js');
 
 const mqtt = require('./clientMQTT.js')
 
