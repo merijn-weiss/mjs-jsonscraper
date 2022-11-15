@@ -15,6 +15,7 @@ let convertedMeasurements = [];
 let convertedMeasurementIDs = [];
 let devicesLeftToScrape = 0;
 
+
 async function ScrapeMJS(devices)
 {
     let devicesToScrape = [];
