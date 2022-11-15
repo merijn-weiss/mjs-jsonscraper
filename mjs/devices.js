@@ -39,7 +39,7 @@ function GetMJSDataUrlDevices(device) {
     skipCondition = 2;
     doScrape = (lastScrapeLag > 24 * 60);
   }
-  else if (lastScrapeLag < 30 || lastMeasurement < 30) // very recent scrape, so not again
+  else if (lastScrapeLag < 30 || lastMeasurementLag < 30) // very recent scrape, so not again
   {
     skipCondition = 3;
     doScrape = false;
