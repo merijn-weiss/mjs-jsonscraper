@@ -128,7 +128,7 @@ async function StoreConvertedMeasurements(convertedMeasurements)
     let mjsDevices = JSON.parse(fs.readFileSync(deviceSettingsFile));
     for(let deviceID of convertedMeasurementIDs)
     {
-        (mjsDevices.filter((obj) => obj.id === deviceID)[0]).lastScrape = new Date();
+        (mjsDevices.filter((obj) => parseInt(obj.id) === parseInt(deviceID))[0]).lastScrape = new Date();
     }
 
     fs.writeFileSync(deviceSettingsFile, JSON.stringify(mjsDevices, null, 2));
