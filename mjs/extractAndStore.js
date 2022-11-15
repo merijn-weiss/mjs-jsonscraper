@@ -5,8 +5,6 @@ const config = require('config');
 const devicesConfig = config.get('mjsDevices');
 
 const axios = require('axios');
-const rateLimit = require('axios-rate-limit');
-const axiosRateLimited = rateLimit(axios.create(), { maxRequests: 4, perMilliseconds: 1000})
 
 const {ConvertRawJSON} = require('./transform.js');
 
@@ -28,54 +26,73 @@ async function ScrapeMJS(devices)
     }
 
     devicesLeftToScrape = devicesToScrape.length;
-    return await Promise.allSettled(devicesToScrape.map(device => scrapeAndPublish(device)))
+
+    const scrapedDevices = [];
+
+    console.log();
+    console.log('### Start Scrape ###');
+
+    for(let device of devicesToScrape) {
+        let scrapedDevice = await ScrapeDevice(device);
+        devicesLeftToScrape = devicesLeftToScrape - 1;
+
+        if(scrapedDevice != undefined)
+        {
+            for(let measurement of scrapedDevice) {
+                if(_.isObject(measurement))
+                {
+                    measurement.device = device;
+                    convertedMeasurements.push(ConvertRawJSON(device.source, measurement));                            
+                }
+            }
+            convertedMeasurementIDs.push(device.id);
+            console.log(`${convertedMeasurements.length} measurements buffered for ${convertedMeasurementIDs.length} devices. ${devicesLeftToScrape} devices left to scrape.`)
+
+            if(convertedMeasurements.length > 10000 || devicesLeftToScrape < 5 || convertedMeasurementIDs.length === 50)
+            {
+                try
+                {
+                    await StoreConvertedMeasurements(convertedMeasurements);                
+                    convertedMeasurements = [];
+                    convertedMeasurementIDs = [];                
+                }
+                catch (error)
+                {
+                    console.log(error);   
+                }
+            }
+
+            scrapedDevices.push({deviceID: device.id, measurements: scrapedDevice.length});
+        }
+        else
+        {
+            scrapedDevices.push({deviceID: device.id, measurements: undefined});
+        }
+    }
+
+    console.log('### End Scrape ###')
+
+    return await Promise.allSettled(scrapedDevices);
 }
 
-const scrapeAndPublish = device => {
-    return new Promise((resolve, reject) => {
-        let jsonsPublished = 0;
-        
-        axiosRateLimited.get(device.scrapeDataURL, { timeout: 5000 })
-            .then(res => {
-                convertedMeasurementIDs.push(device.id);
+const ScrapeDevice = async device => {
+    let measurementCount = 0;
+    try {
+        console.log();
+        console.log(`Scrape ${device.id}`);
+        console.log(device.scrapeDataURL);
 
-                console.log();
-                console.log(device.scrapeDataURL);
-                //const headerDate = res.headers && res.headers.date ? res.headers.date : 'no response date';
-                //console.log('Status Code:', res.status);
-                //console.log('Date in Response header:', headerDate);
+        const scrapedDevice = await axios.get(device.scrapeDataURL, { timeout: 5000 });
+        measurementCount = scrapedDevice.data.length;
 
-                const measurements = res.data;
-                
-                for(let measurement of measurements) {
-                    if(_.isObject(measurement))
-                    {
-                        measurement.device = device;
-                        convertedMeasurements.push(ConvertRawJSON(device.source, measurement));                            
-                    }
-                }
-
-                if(convertedMeasurements.length > 10000 || devicesLeftToScrape < 5 || convertedMeasurementIDs.length === 50)
-                {
-                    StoreConvertedMeasurements(convertedMeasurements, _.clone(convertedMeasurementIDs)).catch(console.log);
-
-                    convertedMeasurements = [];
-                    convertedMeasurementIDs = [];
-                }
-                console.log(`${convertedMeasurements.length} measurements buffered for ${convertedMeasurementIDs.length} devices. ${devicesLeftToScrape} devices left to scrape.`)
-                jsonsPublished = convertedMeasurements.length;
-            })
-            .catch(err => {
-                console.log();
-                console.log(device.scrapeDataURL);
-                reject(console.log(`Error for ${device.id}: ${err.message}`));
-            })
-            .finally(() => {
-                devicesLeftToScrape = devicesLeftToScrape - 1;
-                resolve([jsonsPublished,`Done with ${device.id}. ${jsonsPublished} JSONs published`]);                
-            });
-    })
-  }
+        console.log(`Scraped ${device.id} with ${measurementCount} results`);
+        return scrapedDevice.data;    
+    }
+    catch (error) {
+        console.log(`Error for ${device.id}: ${error.message}`);
+        return undefined;
+    }
+}
 
 // ELASTIC
 const {ElasticClient} = require('../util/clientES.js');
@@ -85,8 +102,9 @@ ElasticClient.info()
   .then(response => console.log(response))
   .catch(error => console.error(error))
 
-async function StoreConvertedMeasurements(convertedMeasurements, convertedMeasurementIDs)
+async function StoreConvertedMeasurements(convertedMeasurements)
 {
+    console.log('Start StoreConvertedMeasurements');
     const b = ElasticClient.helpers.bulk({
         datasource: convertedMeasurements,
         onDocument (doc) {
@@ -99,8 +117,10 @@ async function StoreConvertedMeasurements(convertedMeasurements, convertedMeasur
         }
         })
         
+    console.log('Await result StoreConvertedMeasurements');
+    console.log(await b);
+    
     console.log(`### Stored ConvertedMeasurements for ${convertedMeasurements.length} measurements. ###`);
-    console.log(await b)
 
     let mjsDevices = JSON.parse(fs.readFileSync(deviceSettingsFile));
     for(let deviceID of convertedMeasurementIDs)
