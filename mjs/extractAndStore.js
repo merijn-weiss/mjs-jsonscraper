@@ -123,6 +123,7 @@ async function StoreConvertedMeasurements(convertedMeasurements)
     console.log(await b);
     
     console.log(`### Stored ConvertedMeasurements for ${convertedMeasurements.length} measurements. ###`);
+    console.log(convertedMeasurementIDs);
 
     let mjsDevices = JSON.parse(fs.readFileSync(deviceSettingsFile));
     for(let deviceID of convertedMeasurementIDs)
