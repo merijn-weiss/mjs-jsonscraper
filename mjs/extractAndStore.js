@@ -5,6 +5,8 @@ const config = require('config');
 const devicesConfig = config.get('mjsDevices');
 
 const axios = require('axios');
+const rateLimit = require('axios-rate-limit');
+const axiosLimited = rateLimit(axios.create(), { maxRequests: 1, perMilliseconds: 1000});
 
 const {ConvertRawJSON} = require('./transform.js');
 
@@ -14,7 +16,6 @@ const deviceSettingsFile = path.join(__dirname, `../config/${devicesConfig.devic
 let convertedMeasurements = [];
 let convertedMeasurementIDs = [];
 let devicesLeftToScrape = 0;
-
 
 async function ScrapeMJS(devices)
 {
@@ -83,7 +84,7 @@ const ScrapeDevice = async device => {
         console.log(`Scrape ${device.id}`);
         console.log(device.scrapeDataURL);
 
-        const scrapedDevice = await axios.get(device.scrapeDataURL, { timeout: 5000 });
+        const scrapedDevice = await axiosLimited.get(device.scrapeDataURL, { timeout: 5000 });
         measurementCount = scrapedDevice.data.length;
 
         console.log(`Scraped ${device.id} with ${measurementCount} results`);
