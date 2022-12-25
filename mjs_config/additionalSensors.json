@@ -10,11 +10,22 @@
     {   "id": "842",  "type": "air"},
     {   "id": "843",  "type": "air"},
 
-    {   "id": "2086", "type": "greenroof"},
-    {   "id": "2087", "type": "greenroof"},
-    {   "id": "2088", "type": "greenroof"},
-    {   "id": "2089", "type": "greenroof"},
-    {   "id": "2090", "type": "greenroof"},
-    {   "id": "2103", "type": "greenroof"},
-    {   "id": "2104", "type": "greenroof"}
+    {   "id": "2021", 
+        "format": {
+            "soilM1": "9",
+            "soilT1": "10",
+            "soilM2": "11",
+            "soilT2": "12",
+            "solarV": "13"
+        }
+    },
+    {   "id": "2059", 
+        "format": {
+            "soilM1": "2",
+            "soilT1": "1",
+            "soilM2": "0",
+            "soilT2": "3",
+            "solarV": "4"
+        }
+    }
 ]

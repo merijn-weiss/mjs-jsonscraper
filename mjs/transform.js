@@ -77,13 +77,13 @@ function ConvertRawJSON(source, rawJSON) {
 }
 
 function ConvertGreenRoofValues(deviceSettings, rawExtra) {
-    let rawTemperature = rawExtra[parseInt(deviceSettings.format.soilT1 ) ];
-    let aTemp = parseFloat(deviceSettings.calibration.soilT1.a);
-    let bTemp = parseFloat(deviceSettings.calibration.soilT1.b);
+    let rawTemperature = rawExtra[parseInt(deviceSettings.format.roofT ) ];
+    let aTemp = parseFloat(deviceSettings.calibration.roofT.a);
+    let bTemp = parseFloat(deviceSettings.calibration.roofT.b);
 
-    let rawHumidity = rawExtra[parseInt(deviceSettings.format.soilM1 ) ];
-    let aHum = parseFloat(deviceSettings.calibration.soilM1.a);
-    let bHum = parseFloat(deviceSettings.calibration.soilM1.b);
+    let rawHumidity = rawExtra[parseInt(deviceSettings.format.roofM ) ];
+    let aHum = parseFloat(deviceSettings.calibration.roofM.a);
+    let bHum = parseFloat(deviceSettings.calibration.roofM.b);
 
     return {
         temperature: (rawTemperature * aTemp) + bTemp,

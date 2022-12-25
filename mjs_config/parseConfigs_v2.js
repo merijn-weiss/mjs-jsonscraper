@@ -3,7 +3,7 @@ const fs = require('fs');
 const _ = require('underscore');
 
 // File References
-let mjsNodeFile = 'node_meta_data.json';
+let mjsNodeFile = 'node_meta_data_v2.json';
 
 let sensorDefaultFile = 'sensorDefaults.json';
 let additionalSensorsFile = 'additionalSensors.json';
@@ -72,7 +72,7 @@ function ParseCAL(type, device) {
 
         delete deviceFormat.sensor;
     }
-
+    console.log(deviceSetting.id, deviceFormat);
     if(!_.isEqual(deviceFormat, {}) && !_.isEqual(device.format, defaultDevice.format))
     {
         deviceSetting.format = {};

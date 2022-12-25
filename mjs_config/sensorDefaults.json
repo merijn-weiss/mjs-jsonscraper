@@ -49,15 +49,15 @@
         "id": "default",
         "type": "greenroof",
         "format": {
-          "soilM1": "0",
-          "soilT1": "1"
+          "roofM": "0",
+          "roofT": "1"
         },
         "calibration": {
-          "soilM1": {
+          "roofM": {
             "a": "0.049",
             "b": "-1.0"
           },
-          "soilT1": {
+          "roofT": {
             "a": "0.25",
             "b": "-20"
           }

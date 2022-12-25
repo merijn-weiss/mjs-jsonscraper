@@ -1,542 +1,431 @@
 [
   {
-    "id": "0",
+    "id": "1",
     "type": "base"
   },
   {
-    "id": "1",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.605Z"
-  },
-  {
     "id": "10",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.605Z"
+    "type": "base"
   },
   {
     "id": "100",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.605Z"
+    "type": "base"
   },
   {
     "id": "101",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.605Z"
+    "type": "base"
   },
   {
     "id": "102",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.605Z"
+    "type": "base"
   },
   {
     "id": "103",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.605Z"
+    "type": "base"
   },
   {
     "id": "104",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:34:56.629Z"
+    "type": "base"
   },
   {
     "id": "105",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.605Z"
+    "type": "base"
   },
   {
     "id": "106",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:34:56.630Z"
+    "type": "base"
   },
   {
     "id": "107",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.606Z"
+    "type": "base"
   },
   {
     "id": "108",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:34:56.630Z"
+    "type": "base"
   },
   {
     "id": "109",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:34:56.630Z"
+    "type": "base"
   },
   {
     "id": "11",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.606Z"
+    "type": "base"
   },
   {
     "id": "110",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.606Z"
+    "type": "base"
   },
   {
     "id": "111",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:34:56.630Z"
+    "type": "base"
   },
   {
     "id": "112",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.606Z"
+    "type": "base"
   },
   {
     "id": "113",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.606Z"
+    "type": "base"
   },
   {
     "id": "115",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.606Z"
+    "type": "base"
   },
   {
     "id": "116",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.606Z"
+    "type": "base"
   },
   {
     "id": "117",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.606Z"
+    "type": "base"
   },
   {
     "id": "118",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.606Z"
+    "type": "base"
   },
   {
     "id": "119",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.606Z"
+    "type": "base"
   },
   {
     "id": "12",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.606Z"
+    "type": "base"
   },
   {
     "id": "120",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:34:56.630Z"
+    "type": "base"
   },
   {
     "id": "121",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:34:56.630Z"
+    "type": "base"
   },
   {
     "id": "122",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.607Z"
+    "type": "base"
   },
   {
     "id": "123",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.607Z"
+    "type": "base"
   },
   {
     "id": "124",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.607Z"
+    "type": "base"
   },
   {
     "id": "125",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.607Z"
+    "type": "base"
   },
   {
     "id": "126",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.607Z"
+    "type": "base"
   },
   {
     "id": "127",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.607Z"
+    "type": "base"
   },
   {
     "id": "128",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.607Z"
+    "type": "base"
   },
   {
     "id": "129",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.607Z"
+    "type": "base"
   },
   {
     "id": "13",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.607Z"
+    "type": "base"
   },
   {
     "id": "130",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.607Z"
+    "type": "base"
   },
   {
     "id": "131",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.607Z"
+    "type": "base"
   },
   {
     "id": "132",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:34:56.630Z"
+    "type": "base"
   },
   {
     "id": "133",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.607Z"
+    "type": "base"
   },
   {
     "id": "136",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.607Z"
+    "type": "base"
   },
   {
     "id": "138",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:34:56.630Z"
+    "type": "base"
   },
   {
     "id": "139",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.607Z"
+    "type": "base"
   },
   {
     "id": "14",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.608Z"
+    "type": "base"
   },
   {
     "id": "141",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:34:56.630Z"
+    "type": "base"
   },
   {
     "id": "142",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.608Z"
+    "type": "base"
   },
   {
     "id": "143",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.608Z"
+    "type": "base"
   },
   {
     "id": "144",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.608Z"
+    "type": "base"
   },
   {
     "id": "145",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.608Z"
+    "type": "base"
   },
   {
     "id": "147",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.608Z"
+    "type": "base"
   },
   {
     "id": "148",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.608Z"
+    "type": "base"
   },
   {
     "id": "149",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.608Z"
+    "type": "base"
   },
   {
     "id": "150",
-    "type": "base",
-    "lastScrape": "2022-11-15T19:34:52.608Z"
+    "type": "base"
   },
   {
     "id": "151",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:34:56.630Z"
+    "type": "base"
   },
   {
     "id": "152",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "154",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "155",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "156",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:45:53.827Z"
+    "type": "base"
   },
   {
     "id": "157",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "159",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "16",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "160",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "161",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "163",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "164",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "165",
-    "type": "unknown",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "unknown"
   },
   {
     "id": "166",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "167",
-    "type": "unknown",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "unknown"
   },
   {
     "id": "168",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "169",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "17",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "170",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "171",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "172",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "173",
-    "type": "unknown",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "unknown"
   },
   {
     "id": "174",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "175",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.052Z"
+    "type": "base"
   },
   {
     "id": "176",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:45:53.827Z"
+    "type": "base"
   },
   {
     "id": "177",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "178",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "179",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "18",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "180",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "181",
-    "type": "unknown",
-    "lastScrape": "2022-11-14T20:50:29.076Z"
+    "type": "unknown"
   },
   {
     "id": "182",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "183",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "184",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "185",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "186",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "187",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "188",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "189",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "19",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "190",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "191",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "192",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "193",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "194",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "195",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "base"
   },
   {
     "id": "196",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "197",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "198",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "199",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "2",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "20",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "200",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "base"
   },
   {
     "id": "2000",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "air"
   },
   {
     "id": "2001",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:00.053Z"
+    "type": "air"
   },
   {
     "id": "2002",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:17.037Z"
+    "type": "air"
   },
   {
     "id": "2003",
@@ -558,109 +447,83 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-15T20:35:17.037Z"
+    }
   },
   {
     "id": "2004",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:17.037Z"
+    "type": "air"
   },
   {
     "id": "2005",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:17.037Z"
+    "type": "air"
   },
   {
     "id": "2006",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:17.037Z"
+    "type": "air"
   },
   {
     "id": "2007",
-    "type": "unknown",
-    "lastScrape": "2022-11-15T20:35:17.037Z"
+    "type": "unknown"
   },
   {
     "id": "2008",
-    "type": "air",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "air"
   },
   {
     "id": "2009",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:17.037Z"
+    "type": "air"
   },
   {
     "id": "201",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:17.037Z"
+    "type": "base"
   },
   {
     "id": "2010",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:17.037Z"
+    "type": "air"
   },
   {
     "id": "2011",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:17.037Z"
+    "type": "air"
   },
   {
     "id": "2012",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:17.037Z"
+    "type": "air"
   },
   {
     "id": "2013",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:17.037Z"
+    "type": "air"
   },
   {
     "id": "2014",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:17.037Z"
+    "type": "air"
   },
   {
     "id": "2015",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:28.873Z"
+    "type": "air"
   },
   {
     "id": "2016",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:39.782Z"
+    "type": "air"
   },
   {
     "id": "2017",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:39.782Z"
+    "type": "air"
   },
   {
     "id": "2018",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:39.782Z"
+    "type": "air"
   },
   {
     "id": "202",
-    "type": "base",
-    "lastScrape": "2022-11-15T20:35:39.782Z"
+    "type": "base"
   },
   {
     "id": "2020",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:39.782Z"
+    "type": "air"
   },
   {
     "id": "2021",
     "type": "soil",
-    "format": {
-      "soilM1": "9",
-      "soilT1": "10",
-      "soilM2": "11",
-      "soilT2": "12",
-      "solarV": "13"
-    },
     "calibration": {
       "soilM1": {
         "a": "0.051",
@@ -679,172 +542,195 @@
         "b": "-20"
       }
     },
-    "lastScrape": "2022-11-15T20:35:39.782Z"
+    "format": {
+      "soilM1": "9",
+      "soilT1": "10",
+      "soilM2": "11",
+      "soilT2": "12",
+      "solarV": "13"
+    }
   },
   {
     "id": "2022",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:39.782Z"
+    "type": "air"
   },
   {
     "id": "2023",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:39.782Z"
+    "type": "air"
   },
   {
     "id": "2024",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:39.782Z"
+    "type": "air"
   },
   {
     "id": "2026",
-    "type": "unknown",
-    "lastScrape": "2022-11-15T20:35:39.782Z"
+    "type": "unknown"
   },
   {
     "id": "2028",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:39.782Z"
+    "type": "air"
   },
   {
     "id": "203",
-    "type": "unknown",
-    "lastScrape": "2022-11-15T20:35:47.054Z"
+    "type": "unknown"
   },
   {
     "id": "2030",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:47.054Z"
+    "type": "air"
   },
   {
     "id": "2031",
-    "type": "unknown",
-    "lastScrape": "2022-11-15T20:35:47.054Z"
+    "type": "greenroof",
+    "calibration": {
+      "roofM": {
+        "a": "0.049",
+        "b": "18.7"
+      },
+      "roofT": {
+        "a": "0.25",
+        "b": "-20.00"
+      }
+    }
   },
   {
     "id": "2032",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:47.054Z"
+    "type": "air"
   },
   {
     "id": "2033",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:47.054Z"
+    "type": "air"
   },
   {
     "id": "2034",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:47.054Z"
+    "type": "air"
   },
   {
     "id": "2035",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:53.292Z"
+    "type": "air"
   },
   {
     "id": "2036",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:53.292Z"
+    "type": "air"
   },
   {
     "id": "2037",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:35:53.292Z"
+    "type": "air"
   },
   {
     "id": "2038",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:36:20.795Z"
+    "type": "air"
   },
   {
     "id": "2039",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:36:20.795Z"
+    "type": "air"
   },
   {
     "id": "204",
-    "type": "unknown",
-    "lastScrape": "2022-11-15T20:36:20.795Z"
+    "type": "unknown"
   },
   {
     "id": "2041",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:36:23.296Z"
+    "type": "air"
   },
   {
     "id": "2042",
-    "type": "air",
-    "lastScrape": "2022-11-15T20:36:27.728Z"
+    "type": "air"
   },
   {
     "id": "2043",
-    "type": "air",
-    "lastScrape": "2022-11-14T19:48:10.601Z"
+    "type": "air"
   },
   {
     "id": "2044",
-    "type": "air",
-    "lastScrape": "2022-11-14T19:48:10.601Z"
+    "type": "air"
   },
   {
     "id": "2045",
-    "type": "air",
-    "lastScrape": "2022-11-14T19:48:10.601Z"
+    "type": "air"
   },
   {
     "id": "2046",
-    "type": "air",
-    "lastScrape": "2022-11-14T19:48:10.601Z"
+    "type": "air"
   },
   {
     "id": "2047",
-    "type": "air",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "air"
   },
   {
     "id": "2048",
-    "type": "air",
-    "lastScrape": "2022-11-14T19:48:10.601Z"
+    "type": "air"
   },
   {
     "id": "205",
-    "type": "base",
-    "lastScrape": "2022-11-14T19:48:10.601Z"
+    "type": "base"
   },
   {
     "id": "2051",
-    "type": "air",
-    "lastScrape": "2022-11-14T19:48:10.601Z"
+    "type": "air"
   },
   {
     "id": "2052",
-    "type": "air",
-    "lastScrape": "2022-11-14T19:48:10.601Z"
+    "type": "air"
   },
   {
     "id": "2053",
     "type": "greenroof",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "calibration": {
+      "roofM": {
+        "a": "0.049",
+        "b": "16.7"
+      },
+      "roofT": {
+        "a": "0.25",
+        "b": "-20.00"
+      }
+    }
   },
   {
     "id": "2054",
     "type": "greenroof",
-    "lastScrape": "2022-11-14T20:03:39.079Z"
+    "calibration": {
+      "roofM": {
+        "a": "0.049",
+        "b": "17.4"
+      },
+      "roofT": {
+        "a": "0.25",
+        "b": "-20.00"
+      }
+    }
   },
   {
     "id": "2055",
     "type": "greenroof",
-    "lastScrape": "2022-11-14T20:03:44.893Z"
+    "calibration": {
+      "roofM": {
+        "a": "0.049",
+        "b": "27.4"
+      },
+      "roofT": {
+        "a": "0.25",
+        "b": "-20.00"
+      }
+    }
   },
   {
     "id": "2056",
     "type": "greenroof",
-    "lastScrape": "2022-11-14T20:09:43.786Z"
+    "calibration": {
+      "roofM": {
+        "a": "0.049",
+        "b": "29.8"
+      },
+      "roofT": {
+        "a": "0.25",
+        "b": "-20.00"
+      }
+    }
   },
   {
     "id": "2057",
-    "type": "soil",
-    "lastScrape": "2022-11-14T20:09:43.786Z"
+    "type": "soil"
   },
   {
     "id": "2059",
@@ -873,13 +759,11 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    }
   },
   {
     "id": "206",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:09:43.786Z"
+    "type": "base"
   },
   {
     "id": "2060",
@@ -901,8 +785,7 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    }
   },
   {
     "id": "2061",
@@ -924,8 +807,7 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    }
   },
   {
     "id": "2062",
@@ -947,8 +829,7 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    }
   },
   {
     "id": "2063",
@@ -970,8 +851,7 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:09:43.786Z"
+    }
   },
   {
     "id": "2064",
@@ -993,8 +873,7 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:09:43.786Z"
+    }
   },
   {
     "id": "2065",
@@ -1016,8 +895,7 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:09:43.786Z"
+    }
   },
   {
     "id": "2066",
@@ -1039,8 +917,7 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    }
   },
   {
     "id": "2067",
@@ -1062,8 +939,7 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    }
   },
   {
     "id": "2068",
@@ -1085,8 +961,7 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    }
   },
   {
     "id": "2069",
@@ -1108,23 +983,19 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:09:43.787Z"
+    }
   },
   {
     "id": "2070",
-    "type": "soil",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "soil"
   },
   {
     "id": "2071",
-    "type": "soil",
-    "lastScrape": "2022-11-14T20:09:43.787Z"
+    "type": "soil"
   },
   {
     "id": "2075",
-    "type": "soil",
-    "lastScrape": "2022-11-14T20:09:43.787Z"
+    "type": "soil"
   },
   {
     "id": "2076",
@@ -1146,88 +1017,71 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:09:43.787Z"
+    }
   },
   {
     "id": "2077",
-    "type": "soil",
-    "lastScrape": "2022-11-14T20:09:43.787Z"
+    "type": "soil"
   },
   {
     "id": "2078",
-    "type": "soil",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "soil"
   },
   {
     "id": "2079",
-    "type": "soil",
-    "lastScrape": "2022-11-14T20:09:43.787Z"
+    "type": "soil"
   },
   {
     "id": "208",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:09:43.787Z"
+    "type": "base"
   },
   {
     "id": "2080",
-    "type": "soil",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "soil"
   },
   {
     "id": "2081",
-    "type": "soil",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "soil"
   },
   {
     "id": "2082",
-    "type": "soil",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "soil"
   },
   {
     "id": "2083",
-    "type": "soil",
-    "lastScrape": "2022-11-14T19:48:14.848Z"
+    "type": "soil"
   },
   {
     "id": "2084",
-    "type": "soil",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "soil"
   },
   {
     "id": "2085",
-    "type": "soil",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "soil"
   },
   {
     "id": "2086",
-    "type": "greenroof",
-    "lastScrape": "2022-11-14T20:09:43.787Z"
+    "type": "greenroof"
   },
   {
     "id": "2087",
-    "type": "greenroof",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "greenroof"
   },
   {
     "id": "2088",
-    "type": "greenroof",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "greenroof"
   },
   {
     "id": "2089",
-    "type": "greenroof",
-    "lastScrape": "2022-11-14T20:09:43.787Z"
+    "type": "greenroof"
   },
   {
     "id": "209",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:09:43.787Z"
+    "type": "base"
   },
   {
     "id": "2090",
-    "type": "greenroof",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "greenroof"
   },
   {
     "id": "2091",
@@ -1249,8 +1103,7 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    }
   },
   {
     "id": "2092",
@@ -1272,8 +1125,7 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    }
   },
   {
     "id": "2093",
@@ -1295,8 +1147,7 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:03:44.893Z"
+    }
   },
   {
     "id": "2094",
@@ -1318,8 +1169,7 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    }
   },
   {
     "id": "2095",
@@ -1341,8 +1191,7 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    }
   },
   {
     "id": "2096",
@@ -1364,8 +1213,7 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    }
   },
   {
     "id": "2097",
@@ -1387,8 +1235,7 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:03:44.893Z"
+    }
   },
   {
     "id": "2098",
@@ -1410,3183 +1257,2895 @@
         "a": "0.25",
         "b": "-20"
       }
-    },
-    "lastScrape": "2022-11-14T20:09:43.787Z"
+    }
   },
   {
     "id": "210",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:03:44.893Z"
+    "type": "base"
   },
   {
     "id": "2102",
     "type": "greenroof",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "calibration": {
+      "roofM": {
+        "a": "0.049",
+        "b": "11.2"
+      },
+      "roofT": {
+        "a": "0.25",
+        "b": "-20.00"
+      }
+    }
   },
   {
     "id": "2103",
-    "type": "greenroof",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "greenroof"
   },
   {
     "id": "2104",
-    "type": "greenroof",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "greenroof"
   },
   {
     "id": "2105",
-    "type": "soil",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "soil"
   },
   {
     "id": "2106",
-    "type": "soil",
-    "lastScrape": "2022-11-14T20:09:43.787Z"
+    "type": "soil"
   },
   {
     "id": "2107",
-    "type": "soil",
-    "lastScrape": "2022-11-14T20:09:43.787Z"
+    "type": "soil"
   },
   {
     "id": "2108",
-    "type": "soil",
-    "lastScrape": "2022-11-14T20:09:43.787Z"
+    "type": "soil"
   },
   {
     "id": "2109",
     "type": "soil",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "calibration": {
+      "soilM1": {
+        "a": "0.049",
+        "b": "-5.6"
+      },
+      "soilT1": {
+        "a": "0.25",
+        "b": "-20.00"
+      },
+      "soilM2": {
+        "a": "0.049",
+        "b": "-5.4"
+      },
+      "soilT2": {
+        "a": "0.25",
+        "b": "-20"
+      }
+    }
   },
   {
     "id": "211",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:09:43.787Z"
+    "type": "base"
   },
   {
     "id": "2110",
-    "type": "soil",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "soil"
   },
   {
     "id": "2112",
     "type": "soil",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "calibration": {
+      "soilM1": {
+        "a": "0.049",
+        "b": "-5.6"
+      },
+      "soilT1": {
+        "a": "0.25",
+        "b": "-20.00"
+      },
+      "soilM2": {
+        "a": "0.049",
+        "b": "-5.5"
+      },
+      "soilT2": {
+        "a": "0.25",
+        "b": "-20"
+      }
+    }
+  },
+  {
+    "id": "2113",
+    "type": "soil",
+    "calibration": {
+      "soilM1": {
+        "a": "0.049",
+        "b": "-5.3"
+      },
+      "soilT1": {
+        "a": "0.25",
+        "b": "-20.00"
+      },
+      "soilM2": {
+        "a": "0.049",
+        "b": "-5.4"
+      },
+      "soilT2": {
+        "a": "0.25",
+        "b": "-20"
+      }
+    }
+  },
+  {
+    "id": "2114",
+    "type": "soil",
+    "calibration": {
+      "soilM1": {
+        "a": "0.049",
+        "b": "-5.2"
+      },
+      "soilT1": {
+        "a": "0.25",
+        "b": "-20.00"
+      },
+      "soilM2": {
+        "a": "0.049",
+        "b": "-5.3"
+      },
+      "soilT2": {
+        "a": "0.25",
+        "b": "-20"
+      }
+    }
+  },
+  {
+    "id": "2115",
+    "type": "soil",
+    "calibration": {
+      "soilM1": {
+        "a": "0.049",
+        "b": "-5.5"
+      },
+      "soilT1": {
+        "a": "0.25",
+        "b": "-20.00"
+      },
+      "soilM2": {
+        "a": "0.049",
+        "b": "-5.5"
+      },
+      "soilT2": {
+        "a": "0.25",
+        "b": "-20"
+      }
+    }
+  },
+  {
+    "id": "2116",
+    "type": "soil",
+    "calibration": {
+      "soilM1": {
+        "a": "0.049",
+        "b": "-5.0"
+      },
+      "soilT1": {
+        "a": "0.25",
+        "b": "-20.00"
+      },
+      "soilM2": {
+        "a": "0.049",
+        "b": "-5.7"
+      },
+      "soilT2": {
+        "a": "0.25",
+        "b": "-20"
+      }
+    }
   },
   {
     "id": "2117",
-    "type": "greenroof",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "unknown",
+    "format": {
+      "roofM": "0",
+      "roofT": "1"
+    }
   },
   {
     "id": "2118",
-    "type": "greenroof",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "unknown",
+    "format": {
+      "roofM": "0",
+      "roofT": "1"
+    }
   },
   {
     "id": "2119",
     "type": "greenroof",
-    "lastScrape": "2022-11-14T20:09:43.787Z"
+    "calibration": {
+      "roofM": {
+        "a": "0.049",
+        "b": "28.5"
+      },
+      "roofT": {
+        "a": "0.25",
+        "b": "-20.00"
+      }
+    }
   },
   {
     "id": "212",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:09:43.787Z"
+    "type": "base"
   },
   {
     "id": "2120",
-    "type": "greenroof",
-    "lastScrape": "2022-11-14T20:09:43.787Z"
+    "type": "unknown",
+    "format": {
+      "roofM": "0",
+      "roofT": "1"
+    }
   },
   {
     "id": "2121",
     "type": "greenroof",
-    "lastScrape": "2022-11-14T20:50:29.076Z"
+    "calibration": {
+      "roofM": {
+        "a": "0.049",
+        "b": "31.5"
+      },
+      "roofT": {
+        "a": "0.25",
+        "b": "-20.00"
+      }
+    }
   },
   {
     "id": "2122",
     "type": "greenroof",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "calibration": {
+      "roofM": {
+        "a": "0.049",
+        "b": "24.5"
+      },
+      "roofT": {
+        "a": "0.25",
+        "b": "-20.00"
+      }
+    }
   },
   {
     "id": "2123",
     "type": "greenroof",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "calibration": {
+      "roofM": {
+        "a": "0.049",
+        "b": "22.7"
+      },
+      "roofT": {
+        "a": "0.25",
+        "b": "-20.00"
+      }
+    }
   },
   {
     "id": "2124",
     "type": "greenroof",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "calibration": {
+      "roofM": {
+        "a": "0.049",
+        "b": "18.5"
+      },
+      "roofT": {
+        "a": "0.25",
+        "b": "-20.00"
+      }
+    }
+  },
+  {
+    "id": "2125",
+    "type": "soil",
+    "calibration": {
+      "soilM1": {
+        "a": "0.049",
+        "b": "-5.7"
+      },
+      "soilT1": {
+        "a": "0.25",
+        "b": "-20.00"
+      },
+      "soilM2": {
+        "a": "0.049",
+        "b": "-5.3"
+      },
+      "soilT2": {
+        "a": "0.25",
+        "b": "-20"
+      }
+    }
+  },
+  {
+    "id": "2125",
+    "type": "soil",
+    "calibration": {
+      "soilM1": {
+        "a": "0.049",
+        "b": "-5.1"
+      },
+      "soilT1": {
+        "a": "0.25",
+        "b": "-20.00"
+      },
+      "soilM2": {
+        "a": "0.049",
+        "b": "-4.7"
+      },
+      "soilT2": {
+        "a": "0.25",
+        "b": "-20"
+      }
+    }
+  },
+  {
+    "id": "2126",
+    "type": "soil"
+  },
+  {
+    "id": "2129",
+    "type": "greenroof",
+    "calibration": {
+      "roofM": {
+        "a": "0.049",
+        "b": "18.9"
+      },
+      "roofT": {
+        "a": "0.25",
+        "b": "-20.00"
+      }
+    }
   },
   {
     "id": "213",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
+  },
+  {
+    "id": "2131",
+    "type": "greenroof",
+    "calibration": {
+      "roofM": {
+        "a": "0.049",
+        "b": "15.5"
+      },
+      "roofT": {
+        "a": "0.25",
+        "b": "-20.00"
+      }
+    }
+  },
+  {
+    "id": "2132",
+    "type": "greenroof",
+    "calibration": {
+      "roofM": {
+        "a": "0.049",
+        "b": "20.6"
+      },
+      "roofT": {
+        "a": "0.25",
+        "b": "-20.00"
+      }
+    }
+  },
+  {
+    "id": "2134",
+    "type": "greenroof",
+    "calibration": {
+      "roofM": {
+        "a": "0.049",
+        "b": "13.1"
+      },
+      "roofT": {
+        "a": "0.25",
+        "b": "-20.00"
+      }
+    }
+  },
+  {
+    "id": "2135",
+    "type": "greenroof",
+    "calibration": {
+      "roofM": {
+        "a": "0.049",
+        "b": "21.7"
+      },
+      "roofT": {
+        "a": "0.25",
+        "b": "-20.00"
+      }
+    }
+  },
+  {
+    "id": "2136",
+    "type": "soil"
+  },
+  {
+    "id": "2138",
+    "type": "soil"
   },
   {
     "id": "214",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "215",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "216",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "217",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "218",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "219",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "22",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "base"
   },
   {
     "id": "220",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "221",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "223",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "224",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "225",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "226",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "227",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "228",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "229",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "base"
   },
   {
     "id": "23",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "230",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "base"
   },
   {
     "id": "231",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "232",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "233",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "234",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "base"
   },
   {
     "id": "235",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "236",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "237",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "238",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "239",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "24",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "240",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.069Z"
+    "type": "base"
   },
   {
     "id": "241",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "base"
   },
   {
     "id": "242",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "base"
   },
   {
     "id": "243",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.070Z"
+    "type": "base"
   },
   {
     "id": "244",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.070Z"
+    "type": "base"
   },
   {
     "id": "245",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.070Z"
+    "type": "base"
   },
   {
     "id": "246",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.070Z"
+    "type": "base"
   },
   {
     "id": "247",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.070Z"
+    "type": "base"
   },
   {
     "id": "248",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.070Z"
+    "type": "base"
   },
   {
     "id": "249",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:45:53.828Z"
+    "type": "base"
   },
   {
     "id": "25",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.070Z"
+    "type": "base"
   },
   {
     "id": "250",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.070Z"
+    "type": "base"
   },
   {
     "id": "251",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.070Z"
+    "type": "base"
   },
   {
     "id": "252",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.070Z"
+    "type": "base"
   },
   {
     "id": "253",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.070Z"
+    "type": "base"
   },
   {
     "id": "254",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.070Z"
+    "type": "base"
   },
   {
     "id": "255",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.070Z"
+    "type": "base"
   },
   {
     "id": "26",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.070Z"
+    "type": "base"
   },
   {
     "id": "265",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.070Z"
+    "type": "base"
   },
   {
     "id": "266",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:11:23.070Z"
+    "type": "base"
   },
   {
     "id": "267",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "269",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "27",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "270",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "271",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "272",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "273",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "274",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "275",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "276",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "277",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "278",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "279",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "28",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "280",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "281",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "282",
-    "type": "unknown",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "unknown"
   },
   {
     "id": "284",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "285",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "286",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "287",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "288",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "289",
-    "type": "unknown",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "unknown"
   },
   {
     "id": "29",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "290",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "292",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "293",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "294",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "296",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:02.232Z"
+    "type": "base"
   },
   {
     "id": "297",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "298",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "299",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:09.888Z"
+    "type": "base"
   },
   {
     "id": "3",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "30",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:09.888Z"
+    "type": "base"
   },
   {
     "id": "300",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:53:09.888Z"
+    "type": "unknown"
   },
   {
     "id": "31",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "32",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "33",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "34",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "35",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "350",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "351",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:11.383Z"
+    "type": "base"
   },
   {
     "id": "352",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.474Z"
+    "type": "base"
   },
   {
     "id": "353",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.203Z"
+    "type": "base"
   },
   {
     "id": "354",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.475Z"
+    "type": "base"
   },
   {
     "id": "355",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:11.384Z"
+    "type": "base"
   },
   {
     "id": "357",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.203Z"
+    "type": "base"
   },
   {
     "id": "358",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:25:17.475Z"
+    "type": "base"
   },
   {
     "id": "359",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:11.384Z"
+    "type": "base"
   },
   {
     "id": "36",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.203Z"
+    "type": "base"
   },
   {
     "id": "360",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.203Z"
+    "type": "base"
   },
   {
     "id": "362",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:14.895Z"
+    "type": "base"
   },
   {
     "id": "363",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.203Z"
+    "type": "base"
   },
   {
     "id": "364",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.203Z"
+    "type": "base"
   },
   {
     "id": "365",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.203Z"
+    "type": "base"
   },
   {
     "id": "366",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.203Z"
+    "type": "base"
   },
   {
     "id": "367",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.203Z"
+    "type": "base"
   },
   {
     "id": "369",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.203Z"
+    "type": "base"
   },
   {
     "id": "37",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.203Z"
+    "type": "base"
   },
   {
     "id": "372",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:14.896Z"
+    "type": "base"
   },
   {
     "id": "374",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:14.896Z"
+    "type": "base"
   },
   {
     "id": "375",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.203Z"
+    "type": "base"
   },
   {
     "id": "376",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.203Z"
+    "type": "base"
   },
   {
     "id": "377",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.203Z"
+    "type": "base"
   },
   {
     "id": "378",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.203Z"
+    "type": "base"
   },
   {
     "id": "379",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.203Z"
+    "type": "base"
   },
   {
     "id": "38",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.203Z"
+    "type": "base"
   },
   {
     "id": "380",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.204Z"
+    "type": "base"
   },
   {
     "id": "381",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.204Z"
+    "type": "base"
   },
   {
     "id": "383",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.204Z"
+    "type": "base"
   },
   {
     "id": "384",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.204Z"
+    "type": "base"
   },
   {
     "id": "385",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.204Z"
+    "type": "base"
   },
   {
     "id": "386",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.204Z"
+    "type": "base"
   },
   {
     "id": "387",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.204Z"
+    "type": "base"
   },
   {
     "id": "388",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:03.204Z"
+    "type": "base"
   },
   {
     "id": "389",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:04.725Z"
+    "type": "base"
   },
   {
     "id": "39",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:04.725Z"
+    "type": "base"
   },
   {
     "id": "391",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:04.725Z"
+    "type": "base"
   },
   {
     "id": "392",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:05.056Z"
+    "type": "base"
   },
   {
     "id": "393",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:05.056Z"
+    "type": "base"
   },
   {
     "id": "394",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:05.056Z"
+    "type": "base"
   },
   {
     "id": "395",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:06.069Z"
+    "type": "base"
   },
   {
     "id": "397",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:06.069Z"
+    "type": "base"
   },
   {
     "id": "398",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:06.636Z"
+    "type": "base"
   },
   {
     "id": "399",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:07.988Z"
+    "type": "base"
   },
   {
     "id": "4",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:07.988Z"
+    "type": "base"
   },
   {
     "id": "40",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:07.988Z"
+    "type": "base"
   },
   {
     "id": "401",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:07.988Z"
+    "type": "base"
   },
   {
     "id": "402",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:07.989Z"
+    "type": "base"
   },
   {
     "id": "403",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:11.261Z"
+    "type": "base"
   },
   {
     "id": "405",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:11.261Z"
+    "type": "base"
   },
   {
     "id": "406",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:11.261Z"
+    "type": "base"
   },
   {
     "id": "407",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:11.261Z"
+    "type": "base"
   },
   {
     "id": "408",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:11.261Z"
+    "type": "base"
   },
   {
     "id": "409",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:11.261Z"
+    "type": "base"
   },
   {
     "id": "41",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:11.261Z"
+    "type": "base"
   },
   {
     "id": "410",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:11.261Z"
+    "type": "base"
   },
   {
     "id": "411",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:11.261Z"
+    "type": "base"
   },
   {
     "id": "412",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:11.261Z"
+    "type": "base"
   },
   {
     "id": "413",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:50:29.076Z"
+    "type": "base"
   },
   {
     "id": "414",
-    "type": "unknown",
-    "lastScrape": "2022-11-14T20:28:12.266Z"
+    "type": "unknown"
   },
   {
     "id": "415",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:12.266Z"
+    "type": "base"
   },
   {
     "id": "416",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:12.266Z"
+    "type": "base"
   },
   {
     "id": "417",
-    "type": "unknown",
-    "lastScrape": "2022-11-14T20:28:12.266Z"
+    "type": "unknown"
   },
   {
     "id": "419",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:12.266Z"
+    "type": "base"
   },
   {
     "id": "42",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:12.545Z"
+    "type": "base"
   },
   {
     "id": "420",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:13.276Z"
+    "type": "base"
   },
   {
     "id": "421",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:13.276Z"
+    "type": "base"
   },
   {
     "id": "422",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:28:13.276Z"
+    "type": "base"
   },
   {
     "id": "423",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:50:29.076Z"
+    "type": "base"
   },
   {
     "id": "424",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:23.481Z"
+    "type": "base"
   },
   {
     "id": "425",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:23.481Z"
+    "type": "base"
   },
   {
     "id": "427",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:50:29.076Z"
+    "type": "base"
   },
   {
     "id": "428",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:50:29.076Z"
+    "type": "base"
   },
   {
     "id": "429",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:50:29.076Z"
+    "type": "base"
   },
   {
     "id": "43",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:50:29.076Z"
+    "type": "base"
   },
   {
     "id": "430",
-    "type": "base",
-    "lastScrape": "2022-11-14T20:50:29.076Z"
+    "type": "base"
   },
   {
     "id": "431",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:23.481Z"
+    "type": "base"
   },
   {
     "id": "432",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:23.481Z"
+    "type": "base"
   },
   {
     "id": "433",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:23.481Z"
+    "type": "base"
   },
   {
     "id": "434",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:23.481Z"
+    "type": "base"
   },
   {
     "id": "435",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:23.481Z"
+    "type": "base"
   },
   {
     "id": "436",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:31.125Z"
+    "type": "base"
   },
   {
     "id": "437",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:31.125Z"
+    "type": "base"
   },
   {
     "id": "438",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:31.125Z"
+    "type": "base"
   },
   {
     "id": "439",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:31.125Z"
+    "type": "base"
   },
   {
     "id": "44",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:31.125Z"
+    "type": "base"
   },
   {
     "id": "440",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:31.125Z"
+    "type": "base"
   },
   {
     "id": "441",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:31.125Z"
+    "type": "base"
   },
   {
     "id": "442",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:31.126Z"
+    "type": "base"
   },
   {
     "id": "443",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:31.126Z"
+    "type": "base"
   },
   {
     "id": "444",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:31.126Z"
+    "type": "base"
   },
   {
     "id": "445",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:31.126Z"
+    "type": "base"
   },
   {
     "id": "446",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:32.935Z"
+    "type": "base"
   },
   {
     "id": "447",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:32.935Z"
+    "type": "base"
   },
   {
     "id": "448",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:32.935Z"
+    "type": "base"
   },
   {
     "id": "449",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:32.935Z"
+    "type": "base"
   },
   {
     "id": "45",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:32.935Z"
+    "type": "base"
   },
   {
     "id": "451",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:32.935Z"
+    "type": "base"
   },
   {
     "id": "452",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:32.935Z"
+    "type": "base"
   },
   {
     "id": "453",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:32.935Z"
+    "type": "base"
   },
   {
     "id": "454",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:32.935Z"
+    "type": "base"
   },
   {
     "id": "455",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:32.935Z"
+    "type": "base"
   },
   {
     "id": "456",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:32.935Z"
+    "type": "base"
   },
   {
     "id": "457",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:32.935Z"
+    "type": "base"
   },
   {
     "id": "458",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:36.039Z"
+    "type": "base"
   },
   {
     "id": "459",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:36.039Z"
+    "type": "base"
   },
   {
     "id": "46",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:36.039Z"
+    "type": "base"
   },
   {
     "id": "460",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:36.039Z"
+    "type": "base"
   },
   {
     "id": "461",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:36.039Z"
+    "type": "base"
   },
   {
     "id": "462",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:36.039Z"
+    "type": "base"
   },
   {
     "id": "463",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:23.436Z"
+    "type": "base"
   },
   {
     "id": "464",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:36.039Z"
+    "type": "base"
   },
   {
     "id": "465",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:23.436Z"
+    "type": "base"
   },
   {
     "id": "466",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:36.039Z"
+    "type": "base"
   },
   {
     "id": "467",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:36.039Z"
+    "type": "base"
   },
   {
     "id": "468",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:36.039Z"
+    "type": "base"
   },
   {
     "id": "469",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:42.140Z"
+    "type": "base"
   },
   {
     "id": "47",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:42.140Z"
+    "type": "base"
   },
   {
     "id": "470",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:53:42.140Z"
+    "type": "unknown"
   },
   {
     "id": "471",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:42.140Z"
+    "type": "base"
   },
   {
     "id": "472",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:42.140Z"
+    "type": "base"
   },
   {
     "id": "473",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:42.140Z"
+    "type": "base"
   },
   {
     "id": "474",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:42.140Z"
+    "type": "base"
   },
   {
     "id": "475",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:42.140Z"
+    "type": "base"
   },
   {
     "id": "476",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:42.140Z"
+    "type": "base"
   },
   {
     "id": "477",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:42.140Z"
+    "type": "base"
   },
   {
     "id": "478",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:42.140Z"
+    "type": "base"
   },
   {
     "id": "479",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:42.140Z"
+    "type": "base"
   },
   {
     "id": "48",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:42.140Z"
+    "type": "base"
   },
   {
     "id": "480",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:44.292Z"
+    "type": "base"
   },
   {
     "id": "481",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:23.436Z"
+    "type": "base"
   },
   {
     "id": "482",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:42.140Z"
+    "type": "base"
   },
   {
     "id": "483",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:42.140Z"
+    "type": "base"
   },
   {
     "id": "484",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:42.140Z"
+    "type": "base"
   },
   {
     "id": "485",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:45.375Z"
+    "type": "base"
   },
   {
     "id": "486",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:45.375Z"
+    "type": "base"
   },
   {
     "id": "487",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:45.375Z"
+    "type": "base"
   },
   {
     "id": "488",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:45.375Z"
+    "type": "base"
   },
   {
     "id": "489",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:45.375Z"
+    "type": "base"
   },
   {
     "id": "49",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:45.375Z"
+    "type": "base"
   },
   {
     "id": "490",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:45.375Z"
+    "type": "base"
   },
   {
     "id": "491",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:45.375Z"
+    "type": "base"
   },
   {
     "id": "492",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:45.375Z"
+    "type": "base"
   },
   {
     "id": "493",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:45.375Z"
+    "type": "base"
   },
   {
     "id": "494",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:45.375Z"
+    "type": "base"
   },
   {
     "id": "495",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:45.375Z"
+    "type": "base"
   },
   {
     "id": "496",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:51.226Z"
+    "type": "base"
   },
   {
     "id": "497",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:51.226Z"
+    "type": "base"
   },
   {
     "id": "498",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:51.226Z"
+    "type": "base"
   },
   {
     "id": "499",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:51.226Z"
+    "type": "base"
   },
   {
     "id": "50",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:51.226Z"
+    "type": "base"
   },
   {
     "id": "500",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:53:51.226Z"
+    "type": "base"
   },
   {
     "id": "501",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:23.436Z"
+    "type": "base"
   },
   {
     "id": "502",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:23.436Z"
+    "type": "base"
   },
   {
     "id": "503",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:23.436Z"
+    "type": "base"
   },
   {
     "id": "504",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:24.597Z"
+    "type": "base"
   },
   {
     "id": "506",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:32.837Z"
+    "type": "base"
   },
   {
     "id": "507",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:23.436Z"
+    "type": "base"
   },
   {
     "id": "508",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:23.436Z"
+    "type": "base"
   },
   {
     "id": "509",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:23.436Z"
+    "type": "base"
   },
   {
     "id": "51",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "510",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:23.436Z"
+    "type": "base"
   },
   {
     "id": "511",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:23.436Z"
+    "type": "base"
   },
   {
     "id": "512",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.190Z"
+    "type": "base"
   },
   {
     "id": "513",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:23.436Z"
+    "type": "base"
   },
   {
     "id": "514",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:00.814Z"
+    "type": "base"
   },
   {
     "id": "515",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:00.814Z"
+    "type": "base"
   },
   {
     "id": "517",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:56:23.436Z"
+    "type": "unknown"
   },
   {
     "id": "518",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:00.814Z"
+    "type": "base"
   },
   {
     "id": "519",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:54:00.814Z"
+    "type": "unknown"
   },
   {
     "id": "52",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:00.814Z"
+    "type": "base"
   },
   {
     "id": "520",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:00.814Z"
+    "type": "base"
   },
   {
     "id": "523",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:00.814Z"
+    "type": "base"
   },
   {
     "id": "524",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:00.814Z"
+    "type": "base"
   },
   {
     "id": "526",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:00.814Z"
+    "type": "base"
   },
   {
     "id": "527",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:00.814Z"
+    "type": "base"
   },
   {
     "id": "528",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.190Z"
+    "type": "base"
   },
   {
     "id": "529",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:23.437Z"
+    "type": "base"
   },
   {
     "id": "53",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:23.437Z"
+    "type": "base"
   },
   {
     "id": "530",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:23.437Z"
+    "type": "base"
   },
   {
     "id": "531",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:25.842Z"
+    "type": "base"
   },
   {
     "id": "532",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:25.842Z"
+    "type": "base"
   },
   {
     "id": "533",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:25.842Z"
+    "type": "base"
   },
   {
     "id": "534",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:25.842Z"
+    "type": "base"
   },
   {
     "id": "535",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:25.842Z"
+    "type": "base"
   },
   {
     "id": "536",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:25.842Z"
+    "type": "base"
   },
   {
     "id": "537",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:25.842Z"
+    "type": "base"
   },
   {
     "id": "538",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:25.842Z"
+    "type": "base"
   },
   {
     "id": "539",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:31.776Z"
+    "type": "base"
   },
   {
     "id": "54",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:31.776Z"
+    "type": "base"
   },
   {
     "id": "540",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:31.776Z"
+    "type": "base"
   },
   {
     "id": "541",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:31.776Z"
+    "type": "base"
   },
   {
     "id": "542",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:31.776Z"
+    "type": "base"
   },
   {
     "id": "543",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:31.776Z"
+    "type": "base"
   },
   {
     "id": "544",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:31.776Z"
+    "type": "base"
   },
   {
     "id": "545",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:32.837Z"
+    "type": "base"
   },
   {
     "id": "546",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:31.776Z"
+    "type": "base"
   },
   {
     "id": "547",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:52.677Z"
+    "type": "base"
   },
   {
     "id": "549",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:31.776Z"
+    "type": "base"
   },
   {
     "id": "55",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:33.552Z"
+    "type": "base"
   },
   {
     "id": "550",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.773Z"
+    "type": "base"
   },
   {
     "id": "551",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:32.837Z"
+    "type": "base"
   },
   {
     "id": "554",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "555",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.190Z"
+    "type": "base"
   },
   {
     "id": "556",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:32.837Z"
+    "type": "base"
   },
   {
     "id": "557",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "558",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "559",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "56",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "560",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "561",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "562",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.190Z"
+    "type": "base"
   },
   {
     "id": "563",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:32.837Z"
+    "type": "base"
   },
   {
     "id": "564",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "565",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "566",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "567",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:56:59.138Z"
+    "type": "unknown"
   },
   {
     "id": "568",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "569",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "57",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:14.495Z"
+    "type": "base"
   },
   {
     "id": "570",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "571",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "572",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "573",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "574",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.237Z"
+    "type": "base"
   },
   {
     "id": "575",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "578",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:30.275Z"
+    "type": "base"
   },
   {
     "id": "58",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "580",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.190Z"
+    "type": "base"
   },
   {
     "id": "581",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:04.998Z"
+    "type": "base"
   },
   {
     "id": "582",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "586",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "587",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "59",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "590",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "592",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "595",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "597",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "598",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "599",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "6",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "60",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "600",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "601",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "602",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "603",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "604",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "605",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "606",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "607",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "609",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "61",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "62",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "621",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:34.662Z"
+    "type": "base"
   },
   {
     "id": "622",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:24.597Z"
+    "type": "base"
   },
   {
     "id": "623",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:37.339Z"
+    "type": "base"
   },
   {
     "id": "624",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:24.597Z"
+    "type": "base"
   },
   {
     "id": "625",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:24.597Z"
+    "type": "base"
   },
   {
     "id": "626",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:24.597Z"
+    "type": "base"
   },
   {
     "id": "627",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:37.339Z"
+    "type": "base"
   },
   {
     "id": "628",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:36.207Z"
+    "type": "base"
   },
   {
     "id": "629",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:36.207Z"
+    "type": "base"
   },
   {
     "id": "63",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:36.207Z"
+    "type": "base"
   },
   {
     "id": "630",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:36.207Z"
+    "type": "base"
   },
   {
     "id": "631",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:36.207Z"
+    "type": "base"
   },
   {
     "id": "632",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:36.207Z"
+    "type": "base"
   },
   {
     "id": "633",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:37.339Z"
+    "type": "base"
   },
   {
     "id": "634",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.826Z"
+    "type": "base"
   },
   {
     "id": "635",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:35.824Z"
+    "type": "base"
   },
   {
     "id": "637",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:35.824Z"
+    "type": "base"
   },
   {
     "id": "638",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "639",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "64",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "640",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "641",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "642",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "643",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "644",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "646",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "647",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "648",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "649",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "65",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "650",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "651",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "652",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "653",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "654",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "unknown"
   },
   {
     "id": "655",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "656",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "658",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "659",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:56.428Z"
+    "type": "base"
   },
   {
     "id": "66",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "661",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "unknown"
   },
   {
     "id": "662",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "664",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "665",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "667",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "668",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "669",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "67",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "670",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "671",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "673",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "674",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "676",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "678",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "679",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "68",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "680",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:41.904Z"
+    "type": "base"
   },
   {
     "id": "681",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "682",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "683",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "unknown"
   },
   {
     "id": "684",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "686",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "687",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "69",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "691",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "692",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "693",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "694",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "695",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "696",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "697",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "699",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "7",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "70",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "701",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "702",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:58.227Z"
+    "type": "base"
   },
   {
     "id": "703",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "704",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "705",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "706",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "707",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.236Z"
+    "type": "base"
   },
   {
     "id": "708",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.237Z"
+    "type": "base"
   },
   {
     "id": "709",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.237Z"
+    "type": "base"
   },
   {
     "id": "71",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.237Z"
+    "type": "base"
   },
   {
     "id": "710",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.237Z"
+    "type": "base"
   },
   {
     "id": "711",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.237Z"
+    "type": "base"
   },
   {
     "id": "712",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.237Z"
+    "type": "base"
   },
   {
     "id": "713",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.237Z"
+    "type": "base"
   },
   {
     "id": "714",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:52.677Z"
+    "type": "base"
   },
   {
     "id": "716",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.237Z"
+    "type": "base"
   },
   {
     "id": "717",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.237Z"
+    "type": "base"
   },
   {
     "id": "719",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:05.101Z"
+    "type": "base"
   },
   {
     "id": "72",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:49.237Z"
+    "type": "base"
   },
   {
     "id": "721",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:52.677Z"
+    "type": "base"
   },
   {
     "id": "722",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:52.677Z"
+    "type": "base"
   },
   {
     "id": "723",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:52.677Z"
+    "type": "base"
   },
   {
     "id": "724",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:52.677Z"
+    "type": "base"
   },
   {
     "id": "725",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:52.677Z"
+    "type": "base"
   },
   {
     "id": "727",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:52.677Z"
+    "type": "base"
   },
   {
     "id": "728",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:52.677Z"
+    "type": "base"
   },
   {
     "id": "729",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:52.677Z"
+    "type": "base"
   },
   {
     "id": "73",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:52.677Z"
+    "type": "base"
   },
   {
     "id": "730",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:52.677Z"
+    "type": "base"
   },
   {
     "id": "731",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:52.677Z"
+    "type": "base"
   },
   {
     "id": "732",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:52.677Z"
+    "type": "base"
   },
   {
     "id": "735",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:52.677Z"
+    "type": "base"
   },
   {
     "id": "737",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:56.427Z"
+    "type": "base"
   },
   {
     "id": "739",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:56.428Z"
+    "type": "base"
   },
   {
     "id": "74",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:56.428Z"
+    "type": "base"
   },
   {
     "id": "740",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:43.561Z"
+    "type": "base"
   },
   {
     "id": "742",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:56.428Z"
+    "type": "base"
   },
   {
     "id": "743",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:56.428Z"
+    "type": "base"
   },
   {
     "id": "744",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:56.428Z"
+    "type": "base"
   },
   {
     "id": "745",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:54:56.428Z"
+    "type": "base"
   },
   {
     "id": "746",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:43.561Z"
+    "type": "base"
   },
   {
     "id": "747",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:43.561Z"
+    "type": "base"
   },
   {
     "id": "748",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:43.561Z"
+    "type": "base"
   },
   {
     "id": "749",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:56:51.772Z"
+    "type": "unknown"
   },
   {
     "id": "75",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.190Z"
+    "type": "base"
   },
   {
     "id": "751",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:56:43.561Z"
+    "type": "unknown"
   },
   {
     "id": "752",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:56:43.561Z"
+    "type": "unknown"
   },
   {
     "id": "753",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:56:43.561Z"
+    "type": "unknown"
   },
   {
     "id": "754",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:56:53.239Z"
+    "type": "unknown"
   },
   {
     "id": "755",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:43.562Z"
+    "type": "base"
   },
   {
     "id": "756",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:56:43.562Z"
+    "type": "unknown"
   },
   {
     "id": "757",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:56:51.772Z"
+    "type": "soil",
+    "calibration": {
+      "soilM1": {
+        "a": "0.047",
+        "b": "-4.7"
+      },
+      "soilT1": {
+        "a": "0.25",
+        "b": "-20"
+      },
+      "soilM2": {
+        "a": "0.047",
+        "b": "-5.8"
+      },
+      "soilT2": {
+        "a": "0.25",
+        "b": "-20"
+      }
+    }
   },
   {
     "id": "758",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:56:51.772Z"
+    "type": "unknown"
   },
   {
     "id": "759",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:56:51.773Z"
+    "type": "unknown"
   },
   {
     "id": "76",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.772Z"
+    "type": "base"
   },
   {
     "id": "760",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.772Z"
+    "type": "base"
   },
   {
     "id": "761",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:56:51.772Z"
+    "type": "unknown"
   },
   {
     "id": "763",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.773Z"
+    "type": "base"
   },
   {
     "id": "764",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.773Z"
+    "type": "base"
   },
   {
     "id": "765",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:23.531Z"
+    "type": "base"
   },
   {
     "id": "766",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.773Z"
+    "type": "base"
   },
   {
     "id": "767",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.773Z"
+    "type": "base"
   },
   {
     "id": "768",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.773Z"
+    "type": "base"
   },
   {
     "id": "769",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.190Z"
+    "type": "base"
   },
   {
     "id": "77",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.773Z"
+    "type": "base"
   },
   {
     "id": "770",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.773Z"
+    "type": "base"
   },
   {
     "id": "771",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.773Z"
+    "type": "base"
   },
   {
     "id": "772",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.773Z"
+    "type": "base"
   },
   {
     "id": "773",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.773Z"
+    "type": "base"
   },
   {
     "id": "774",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.773Z"
+    "type": "base"
   },
   {
     "id": "775",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.773Z"
+    "type": "base"
   },
   {
     "id": "776",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.773Z"
+    "type": "base"
   },
   {
     "id": "777",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.773Z"
+    "type": "base"
   },
   {
     "id": "778",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.773Z"
+    "type": "base"
   },
   {
     "id": "779",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:34.456Z"
+    "type": "base"
   },
   {
     "id": "78",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:16.805Z"
+    "type": "base"
   },
   {
     "id": "781",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.826Z"
+    "type": "base"
   },
   {
     "id": "782",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.826Z"
+    "type": "base"
   },
   {
     "id": "783",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:17.835Z"
+    "type": "base"
   },
   {
     "id": "784",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.826Z"
+    "type": "base"
   },
   {
     "id": "785",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.826Z"
+    "type": "base"
   },
   {
     "id": "786",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.826Z"
+    "type": "base"
   },
   {
     "id": "787",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.826Z"
+    "type": "base"
   },
   {
     "id": "789",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:51.826Z"
+    "type": "base"
   },
   {
     "id": "79",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.190Z"
+    "type": "base"
   },
   {
     "id": "790",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.190Z"
+    "type": "base"
   },
   {
     "id": "791",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:53.238Z"
+    "type": "base"
   },
   {
     "id": "792",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:53.239Z"
+    "type": "base"
   },
   {
     "id": "793",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:53.239Z"
+    "type": "base"
   },
   {
     "id": "794",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:53.239Z"
+    "type": "base"
   },
   {
     "id": "796",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:53.239Z"
+    "type": "base"
   },
   {
     "id": "797",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:56:53.239Z"
+    "type": "unknown"
   },
   {
     "id": "8",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:59.138Z"
+    "type": "base"
   },
   {
     "id": "80",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:56:59.138Z"
+    "type": "base"
   },
   {
     "id": "800",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:56:59.138Z"
+    "type": "unknown"
   },
   {
     "id": "801",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:56:59.138Z"
+    "type": "unknown"
   },
   {
     "id": "809",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:56:59.138Z"
+    "type": "unknown"
   },
   {
     "id": "81",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:56:59.138Z"
+    "type": "unknown"
   },
   {
     "id": "812",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:57:04.998Z"
+    "type": "unknown"
   },
   {
     "id": "813",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:57:04.998Z"
+    "type": "unknown"
   },
   {
     "id": "815",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:57:04.998Z"
+    "type": "unknown"
   },
   {
     "id": "816",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "82",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T22:03:49.190Z"
+    "type": "unknown"
   },
   {
     "id": "820",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "unknown"
   },
   {
     "id": "822",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "unknown"
   },
   {
     "id": "823",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "unknown"
   },
   {
     "id": "824",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "unknown"
   },
   {
     "id": "825",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "unknown"
   },
   {
     "id": "826",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "unknown"
   },
   {
     "id": "827",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "unknown"
   },
   {
     "id": "829",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "unknown"
   },
   {
     "id": "83",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "830",
-    "type": "unknown",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "unknown"
   },
   {
     "id": "832",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "833",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "834",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "835",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "837",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "838",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "839",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "84",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:28.367Z"
+    "type": "base"
   },
   {
     "id": "840",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "841",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "842",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "air"
   },
   {
     "id": "843",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "air"
   },
   {
     "id": "845",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "846",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "847",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "848",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "849",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "85",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "850",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "851",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:06.470Z"
+    "type": "base"
   },
   {
     "id": "853",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.190Z"
+    "type": "base"
   },
   {
     "id": "854",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:14.495Z"
+    "type": "base"
   },
   {
     "id": "855",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:14.495Z"
+    "type": "base"
   },
   {
     "id": "856",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:16.805Z"
+    "type": "base"
   },
   {
     "id": "857",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:14.495Z"
+    "type": "base"
   },
   {
     "id": "858",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:14.495Z"
+    "type": "base"
   },
   {
     "id": "86",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:14.495Z"
+    "type": "base"
   },
   {
     "id": "864",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:14.495Z"
+    "type": "base"
   },
   {
     "id": "865",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:14.495Z"
+    "type": "base"
   },
   {
     "id": "866",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:14.495Z"
+    "type": "base"
   },
   {
     "id": "867",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:14.495Z"
+    "type": "base"
   },
   {
     "id": "868",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:14.495Z"
+    "type": "base"
   },
   {
     "id": "869",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:14.495Z"
+    "type": "base"
   },
   {
     "id": "87",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:14.495Z"
+    "type": "base"
   },
   {
     "id": "870",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.190Z"
+    "type": "base"
   },
   {
     "id": "871",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.190Z"
+    "type": "base"
   },
   {
     "id": "872",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.190Z"
+    "type": "base"
   },
   {
     "id": "873",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:28.367Z"
+    "type": "base"
   },
   {
     "id": "875",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:28.367Z"
+    "type": "base"
   },
   {
     "id": "876",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:28.367Z"
+    "type": "base"
   },
   {
     "id": "877",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:28.367Z"
+    "type": "base"
   },
   {
     "id": "878",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:28.367Z"
+    "type": "base"
   },
   {
     "id": "88",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:28.367Z"
+    "type": "base"
   },
   {
     "id": "880",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:28.367Z"
+    "type": "base"
   },
   {
     "id": "881",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:28.367Z"
+    "type": "base"
   },
   {
     "id": "882",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:28.367Z"
+    "type": "base"
   },
   {
     "id": "883",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:28.367Z"
+    "type": "base"
   },
   {
     "id": "884",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.190Z"
+    "type": "base"
   },
   {
     "id": "885",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.190Z"
+    "type": "base"
   },
   {
     "id": "886",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.190Z"
+    "type": "base"
   },
   {
     "id": "887",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.190Z"
+    "type": "base"
   },
   {
     "id": "888",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:32.899Z"
+    "type": "base"
   },
   {
     "id": "889",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.191Z"
+    "type": "base"
   },
   {
     "id": "89",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.191Z"
+    "type": "base"
   },
   {
     "id": "890",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.191Z"
+    "type": "base"
   },
   {
     "id": "892",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.191Z"
+    "type": "base"
   },
   {
     "id": "893",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:32.899Z"
+    "type": "base"
   },
   {
     "id": "894",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:32.899Z"
+    "type": "base"
   },
   {
     "id": "895",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.191Z"
+    "type": "base"
   },
   {
     "id": "897",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:32.899Z"
+    "type": "base"
   },
   {
     "id": "9",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:44.513Z"
+    "type": "base"
   },
   {
     "id": "90",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.191Z"
+    "type": "base"
   },
   {
     "id": "91",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:16.805Z"
+    "type": "base"
   },
   {
     "id": "92",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.191Z"
+    "type": "base"
   },
   {
     "id": "922",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:16.805Z"
+    "type": "base"
   },
   {
     "id": "923",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:16.805Z"
+    "type": "base"
   },
   {
     "id": "927",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:49.226Z"
+    "type": "base"
   },
   {
     "id": "929",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:57:16.805Z"
+    "type": "base"
   },
   {
     "id": "93",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:50.074Z"
+    "type": "base"
   },
   {
     "id": "938",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:44.513Z"
+    "type": "base"
   },
   {
     "id": "939",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:44.513Z"
+    "type": "base"
   },
   {
     "id": "94",
-    "type": "base",
-    "lastScrape": "2022-11-12T22:03:50.185Z"
+    "type": "base"
   },
   {
     "id": "943",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:44.513Z"
+    "type": "base"
   },
   {
     "id": "944",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:44.513Z"
+    "type": "base"
   },
   {
     "id": "945",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:44.513Z"
+    "type": "base"
   },
   {
     "id": "947",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:44.513Z"
+    "type": "base"
   },
   {
     "id": "949",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:44.513Z"
+    "type": "base"
   },
   {
     "id": "95",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:44.513Z"
+    "type": "base"
   },
   {
     "id": "952",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:44.513Z"
+    "type": "base"
+  },
+  {
+    "id": "956",
+    "type": "base"
+  },
+  {
+    "id": "957",
+    "type": "base"
   },
   {
     "id": "96",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:44.513Z"
+    "type": "base"
   },
   {
     "id": "97",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:44.513Z"
+    "type": "base"
   },
   {
     "id": "98",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:44.513Z"
+    "type": "base"
   },
   {
     "id": "99",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:44.513Z"
+    "type": "base"
   },
   {
     "id": "999",
-    "type": "base",
-    "lastScrape": "2022-11-12T21:55:44.513Z"
+    "type": "base"
   },
   {
     "id": "default",
@@ -4639,16 +4198,16 @@
     "id": "default",
     "type": "greenroof",
     "format": {
-      "soilM1": "0",
-      "soilT1": "1",
+      "roofM": "0",
+      "roofT": "1",
       "solarV": "2"
     },
     "calibration": {
-      "soilM1": {
+      "roofM": {
         "a": "0.049",
         "b": "-1.0"
       },
-      "soilT1": {
+      "roofT": {
         "a": "0.25",
         "b": "-20"
       }
