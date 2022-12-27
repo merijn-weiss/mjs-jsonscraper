@@ -8,11 +8,26 @@ const devicesConfig = config.get('mjsDevices');
 // Get Devices
 const path = require('path');
 const deviceSettingsFile = path.join(__dirname, `../config/${devicesConfig.deviceSettingsFile}`);
+const deviceForceScapeFile = path.join(__dirname, `../config/${devicesConfig.deviceForceScrapeFile}`);
 
 let deviceSettings = GetDeviceSettingsFile();
 function GetDeviceSettingsFile()
 {
     let devices = JSON.parse(fs.readFileSync(deviceSettingsFile));
+    let devicesForceScrape = fs.readFileSync(deviceForceScapeFile, 'utf-8');
+
+    devicesForceScrape.split(/\r?\n/).forEach(line =>  {        
+        if((devices.filter((obj) => parseInt(obj.id) === parseInt(line))[0]) != undefined)
+        {
+            (devices.filter((obj) => parseInt(obj.id) === parseInt(line))[0]).doScrape = true;
+        }
+    });
+
+    fs.writeFile(deviceForceScapeFile, '', function (err) {
+            if (err) throw err;
+            console.log('Saved!');
+    });
+
     return devices;
 }
 

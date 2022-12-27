@@ -29,6 +29,12 @@ function GetMJSDataUrlDevices(device) {
 
   let skipCondition = 0;
   // Determine whether or not to scrape the data
+  
+  if(device.doScrape)                        // force scrape
+  {
+    skipCondition = 0;
+    doScrape = true;
+  }
   if(lastScrapeLag === undefined)                         // first scrape
   {
     skipCondition = 1;

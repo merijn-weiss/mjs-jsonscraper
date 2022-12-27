@@ -7,8 +7,20 @@
             "soilT2": {"a": "0.25",  "b": "-20"}
         }
     },
+
+    {   "id": "68",  "type": "air"},
+    {   "id": "487",  "type": "air"},
+    {   "id": "719",  "type": "air"},
+    {   "id": "721",  "type": "air"},
+    {   "id": "773",  "type": "air"},
+    {   "id": "782",  "type": "air"},
+    {   "id": "787",  "type": "air"},
+    {   "id": "791",  "type": "air"},
+
     {   "id": "842",  "type": "air"},
     {   "id": "843",  "type": "air"},
+    {   "id": "871",  "type": "air"},
+    {   "id": "883",  "type": "air"},
 
     {   "id": "2021", 
         "format": {

@@ -1,431 +1,538 @@
 [
   {
     "id": "1",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "10",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "100",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "101",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "102",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "103",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "104",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "105",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "106",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "107",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "108",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "109",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "11",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "110",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "111",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "112",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "113",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "115",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "116",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "117",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "118",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "119",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "12",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "120",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "121",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "122",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "123",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "124",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "125",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "126",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "127",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "128",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "129",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "13",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "130",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "131",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "132",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "133",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "136",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "138",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "139",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "14",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "141",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "142",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "143",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "144",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "145",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "147",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "148",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "149",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "150",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "151",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "152",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "154",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "155",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "156",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "157",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "159",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "16",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "160",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "161",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "163",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "164",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "165",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "166",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "167",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "168",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "169",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "17",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "170",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "171",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "172",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "173",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "174",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "175",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "176",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "177",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "178",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "179",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "18",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "180",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "181",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "182",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "183",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "184",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "185",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "186",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "187",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "188",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "189",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "19",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "190",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "191",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "192",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "193",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "194",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "195",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "196",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "197",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "198",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "199",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "2",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "20",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "200",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "2000",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2001",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2002",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2003",
@@ -451,75 +558,93 @@
   },
   {
     "id": "2004",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2005",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2006",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2007",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V2"
   },
   {
     "id": "2008",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2009",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "201",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "2010",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2011",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2012",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2013",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2014",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2015",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2016",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2017",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2018",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "202",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "2020",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2021",
@@ -552,31 +677,38 @@
   },
   {
     "id": "2022",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2023",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2024",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2026",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V2"
   },
   {
     "id": "2028",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "203",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "2030",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2031",
@@ -594,83 +726,103 @@
   },
   {
     "id": "2032",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2033",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2034",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2035",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2036",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2037",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2038",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2039",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "204",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "2041",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2042",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2043",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2044",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2045",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2046",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2047",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2048",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "205",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "2051",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2052",
-    "type": "air"
+    "type": "air",
+    "hardware": "V2"
   },
   {
     "id": "2053",
@@ -730,7 +882,8 @@
   },
   {
     "id": "2057",
-    "type": "soil"
+    "type": "soil",
+    "hardware": "V2"
   },
   {
     "id": "2059",
@@ -763,7 +916,8 @@
   },
   {
     "id": "206",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "2060",
@@ -991,7 +1145,8 @@
   },
   {
     "id": "2071",
-    "type": "soil"
+    "type": "soil",
+    "hardware": "V2"
   },
   {
     "id": "2075",
@@ -1033,7 +1188,8 @@
   },
   {
     "id": "208",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "2080",
@@ -1065,7 +1221,8 @@
   },
   {
     "id": "2087",
-    "type": "greenroof"
+    "type": "greenroof",
+    "hardware": "V2"
   },
   {
     "id": "2088",
@@ -1077,7 +1234,8 @@
   },
   {
     "id": "209",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "2090",
@@ -1261,7 +1419,8 @@
   },
   {
     "id": "210",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "2102",
@@ -1325,7 +1484,8 @@
   },
   {
     "id": "211",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "2110",
@@ -1473,7 +1633,8 @@
   },
   {
     "id": "212",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "2120",
@@ -1585,7 +1746,8 @@
   },
   {
     "id": "2126",
-    "type": "soil"
+    "type": "soil",
+    "hardware": "V2"
   },
   {
     "id": "2129",
@@ -1603,7 +1765,8 @@
   },
   {
     "id": "213",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "2131",
@@ -1663,1883 +1826,2353 @@
   },
   {
     "id": "2136",
-    "type": "soil"
+    "type": "soil",
+    "hardware": "V2"
   },
   {
     "id": "2138",
-    "type": "soil"
+    "type": "soil",
+    "hardware": "V2"
   },
   {
     "id": "214",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "215",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "216",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "217",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "218",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "219",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "22",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "220",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "221",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "223",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "224",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "225",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "226",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "227",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "228",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "229",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "23",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "230",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "231",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "232",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "233",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "234",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "235",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "236",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "237",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "238",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "239",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "24",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "240",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "241",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "242",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "243",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "244",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "245",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "246",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "247",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "248",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "249",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "25",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "250",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "251",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "252",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "253",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "254",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "255",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "26",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "265",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "266",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "267",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "269",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "27",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "270",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "271",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "272",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "273",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "274",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "275",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "276",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "277",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "278",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "279",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "28",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "280",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "281",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "282",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "284",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "285",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "286",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "287",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "288",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "289",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "29",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "290",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "292",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "293",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "294",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "296",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "297",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "298",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "299",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "3",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "30",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "300",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "31",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "32",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "33",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "34",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "35",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "350",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "351",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "352",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "353",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "354",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "355",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "357",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "358",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "359",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "36",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "360",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "362",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "363",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "364",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "365",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "366",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "367",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "369",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "37",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "372",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "374",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "375",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "376",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "377",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "378",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "379",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "38",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "380",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "381",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "383",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "384",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "385",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "386",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "387",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "388",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "389",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "39",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "391",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "392",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "393",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "394",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "395",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "397",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "398",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "399",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "4",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "40",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "401",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "402",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "403",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "405",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "406",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "407",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "408",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "409",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "41",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "410",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "411",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "412",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "413",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "414",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "415",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "416",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "417",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "419",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "42",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "420",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "421",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "422",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "423",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "424",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "425",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "427",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "428",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "429",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "43",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "430",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "431",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "432",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "433",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "434",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "435",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "436",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "437",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "438",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "439",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "44",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "440",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "441",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "442",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "443",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "444",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "445",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "446",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "447",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "448",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "449",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "45",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "451",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "452",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "453",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "454",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "455",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "456",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "457",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "458",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "459",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "46",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "460",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "461",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "462",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "463",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "464",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "465",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "466",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "467",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "468",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "469",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "47",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "470",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "471",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "472",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "473",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "474",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "475",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "476",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "477",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "478",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "479",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "48",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "480",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "481",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "482",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "483",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "484",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "485",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "486",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "487",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "488",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "489",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "49",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "490",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "491",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "492",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "493",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "494",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "495",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "496",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "497",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "498",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "499",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "50",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "500",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "501",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "502",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "503",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "504",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "506",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "507",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "508",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "509",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "51",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "510",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "511",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "512",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "513",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "514",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "515",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "517",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "518",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "519",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "52",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "520",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "523",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "524",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "526",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "527",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "528",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "529",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "53",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "530",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "531",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "532",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "533",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "534",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "535",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "536",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "537",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "538",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "539",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "54",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "540",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "541",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "542",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "543",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "544",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "545",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "546",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "547",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "549",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "55",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "550",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "551",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "554",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "555",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "556",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "557",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "558",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "559",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "56",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "560",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "561",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "562",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "563",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "564",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "565",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "566",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "567",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "568",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "569",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "57",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "570",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "571",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "572",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "573",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "574",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "575",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "578",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "58",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "580",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "581",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "582",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "586",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "587",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "59",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "590",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "592",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "595",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "597",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "598",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "599",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "6",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "60",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "600",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "601",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "602",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "603",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "604",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "605",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "606",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "607",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "609",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "61",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "62",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "621",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "622",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "623",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "624",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "625",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "626",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "627",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "628",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "629",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "63",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "630",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "631",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "632",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "633",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "634",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "635",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "637",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "638",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "639",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "64",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "640",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "641",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "642",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "643",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "644",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "646",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "647",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "648",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "649",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "65",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "650",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "651",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "652",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "653",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "654",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "655",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "656",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "658",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "659",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "66",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "661",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "662",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "664",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "665",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "667",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "668",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "669",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "67",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "670",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "671",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "673",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "674",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "676",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "678",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "679",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "68",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "680",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "681",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "682",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "683",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "684",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "686",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "687",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "69",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "691",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "692",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "693",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "694",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "695",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "696",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "697",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "699",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "7",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "70",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "701",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "702",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "703",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "704",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "705",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "706",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "707",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "708",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "709",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "71",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "710",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "711",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "712",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "713",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "714",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "716",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "717",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "719",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "72",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "721",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "722",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "723",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "724",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "725",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "727",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "728",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "729",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "73",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "730",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "731",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "732",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "735",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "737",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "739",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "74",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "740",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "742",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "743",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "744",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "745",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "746",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "747",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "748",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "749",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "75",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "751",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "752",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "753",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "754",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "755",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "756",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "757",
     "type": "soil",
+    "hardware": "V1",
     "calibration": {
       "soilM1": {
         "a": "0.047",
@@ -3561,591 +4194,738 @@
   },
   {
     "id": "758",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "759",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "76",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "760",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "761",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "763",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "764",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "765",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "766",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "767",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "768",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "769",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "77",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "770",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "771",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "772",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "773",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "774",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "775",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "776",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "777",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "778",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "779",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "78",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "781",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "782",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "783",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "784",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "785",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "786",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "787",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "789",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "79",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "790",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "791",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "792",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "793",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "794",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "796",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "797",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "8",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "80",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "800",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "801",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "809",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "81",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "812",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "813",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "815",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "816",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "82",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "820",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "822",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "823",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "824",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "825",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "826",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "827",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "829",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "83",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "830",
-    "type": "unknown"
+    "type": "unknown",
+    "hardware": "V1"
   },
   {
     "id": "832",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "833",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "834",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "835",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "837",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "838",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "839",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "84",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "840",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "841",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "842",
-    "type": "air"
+    "type": "air",
+    "hardware": "V1"
   },
   {
     "id": "843",
-    "type": "air"
+    "type": "air",
+    "hardware": "V1"
   },
   {
     "id": "845",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "846",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "847",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "848",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "849",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "85",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "850",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "851",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "853",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "854",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "855",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "856",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "857",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "858",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "86",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "864",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "865",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "866",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "867",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "868",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "869",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "87",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "870",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "871",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "872",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "873",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "875",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "876",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "877",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "878",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "88",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "880",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "881",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "882",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "883",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "884",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "885",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "886",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "887",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "888",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "889",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "89",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "890",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "892",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "893",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "894",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "895",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "897",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "9",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "90",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "91",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "92",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "922",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "923",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "927",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "929",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "93",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "938",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "939",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "94",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "943",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "944",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "945",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "947",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "949",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "95",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "952",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "956",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "957",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "96",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "97",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "98",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "99",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "999",
-    "type": "base"
+    "type": "base",
+    "hardware": "V1"
   },
   {
     "id": "default",

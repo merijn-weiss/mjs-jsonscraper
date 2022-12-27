@@ -11,6 +11,8 @@ let deviceSettingsFile = '../config/settings.devices.json';
 
 let typeMapping = {soil_moisture: 'soil', greenroof: 'greenroof', green_roof: 'greenroof', air_quality: 'air', climate: 'base', unknown: 'unknown'};
 
+let sensorTypes = new Set();
+
 // Parse the MJS CAL files and create settings.devices.json file as per the format for MJS Scraper
 function ParseConfig() {
     let deviceSettings = [];
@@ -47,7 +49,10 @@ function ParseConfig() {
                 deviceToOverwrite[prop] = device[prop];
             }
         }
-    } 
+    }
+
+    console.log('\n**** Sensors in Set ****');
+    console.log(sensorTypes);
 
     // DIRTY FIX, VALUES MISSING /INCORRECT FROM node_meta_data
     (deviceSettings.filter((obj) => obj.id === 'default' && obj.type === 'greenroof')[0]).format.solarV = "2";
@@ -59,7 +64,6 @@ function ParseConfig() {
 }
 
 let callibrationMapping = {soilM1: 'soilM1', soilT1: 'soilT1', soilM2: 'soilM2', soilT2: 'soilT2', roofM: 'roofM', roofT1: 'roofT'};
-
 let sensorDefault = JSON.parse(fs.readFileSync(sensorDefaultFile));
 function ParseCAL(type, device) {
 
@@ -68,6 +72,40 @@ function ParseCAL(type, device) {
     let deviceSetting = {};
     deviceSetting.id = device.id;
     deviceSetting.type = type;
+    deviceSetting.hardware = device.hardware;
+    
+    let sensorBase = false;
+    let sensorAir = false;
+    let sensorGreenroof = false;
+    let sensorSoil = false;
+    let solarPanel = false;
+
+    if(device.sensors != undefined && device.sensors[0] != undefined && device.sensors[0].order != undefined)
+    {
+        for(let sensorKey in device.sensors[0].order)
+        {
+            let sensor = device.sensors[0].order[sensorKey];
+
+            if(!sensorTypes.has(sensor))
+                sensorTypes.add(sensor);
+
+            sensorBase = (sensor === 'si7021') ? true : sensorBase;
+            sensorAir = (sensor === 'sensirion_sps30') ? true : sensorAir;
+            sensorGreenroof = (sensor === '1xpinotechsw10_1xntc10k') ? true : sensorGreenroof;
+            sensorSoil = (sensor === '2xpinotechsw10_2xntc10k') ? true : sensorSoil;
+            solarPanel = (sensor === 'vsolar') ? true : solarPanel;
+        }
+    }
+
+    if(deviceSetting.type === 'base')
+    {
+        if(sensorAir || sensorGreenroof || sensorSoil)
+            console.log(`Device Type 'Base', but has ${device.sensors[0].order}`);
+    }
+    else if(deviceSetting.type === 'unknown')
+    {
+        console.log(`Device ${deviceSetting.id} type is unknown. Hardware is ${deviceSetting.hardware}`);
+    }
 
     let deviceFormat = {};
     if(device.formats != undefined)

@@ -16,6 +16,7 @@
     },
     "mjsDevices":
     {
-      "deviceSettingsFile": "settings.devices.json"
+      "deviceSettingsFile": "settings.devices.json",
+      "deviceForceScrapeFile": "setting.devices.forcescrape.txt"
     }
 }

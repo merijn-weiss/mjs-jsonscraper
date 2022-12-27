@@ -20,6 +20,7 @@ function ConvertRawJSON(source, rawJSON) {
     convertedJSON.device.source = source;
     convertedJSON.device.id = deviceSettings.id;
     convertedJSON.device.type = deviceSettings.type;
+    convertedJSON.device.hardware = deviceSettings.hardware;
     convertedJSON.device.firmware = measurement.firmware_version;
 
     if(measurement.supply != undefined)
