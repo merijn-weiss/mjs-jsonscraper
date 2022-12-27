@@ -66,7 +66,7 @@ function GetMJSDataUrlDevices(device) {
   
   if (doScrape)
   {
-    if(lastMeasurement === undefined)
+    if(lastMeasurement === undefined || skipCondition === 0)
     {
       console.log(`${device.id} has no measurements (yet)`)
       dataURL = `https://meetjestad.net/data/?type=sensors&format=json&ids=${device.id}`;
