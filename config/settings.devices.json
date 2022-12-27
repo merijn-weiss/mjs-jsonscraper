@@ -2641,7 +2641,7 @@
   },
   {
     "id": "428",
-    "type": "base",
+    "type": "air",
     "hardware": "V1"
   },
   {
@@ -2671,7 +2671,7 @@
   },
   {
     "id": "433",
-    "type": "base",
+    "type": "air",
     "hardware": "V1"
   },
   {
@@ -2846,7 +2846,7 @@
   },
   {
     "id": "466",
-    "type": "base",
+    "type": "air",
     "hardware": "V1"
   },
   {
@@ -2961,7 +2961,7 @@
   },
   {
     "id": "487",
-    "type": "base",
+    "type": "air",
     "hardware": "V1"
   },
   {
@@ -3821,7 +3821,7 @@
   },
   {
     "id": "68",
-    "type": "base",
+    "type": "air",
     "hardware": "V1"
   },
   {
@@ -4001,7 +4001,7 @@
   },
   {
     "id": "719",
-    "type": "base",
+    "type": "air",
     "hardware": "V1"
   },
   {
@@ -4011,7 +4011,7 @@
   },
   {
     "id": "721",
-    "type": "base",
+    "type": "air",
     "hardware": "V1"
   },
   {
@@ -4274,7 +4274,7 @@
   },
   {
     "id": "773",
-    "type": "base",
+    "type": "air",
     "hardware": "V1"
   },
   {
@@ -4319,7 +4319,7 @@
   },
   {
     "id": "782",
-    "type": "base",
+    "type": "air",
     "hardware": "V1"
   },
   {
@@ -4344,7 +4344,7 @@
   },
   {
     "id": "787",
-    "type": "base",
+    "type": "air",
     "hardware": "V1"
   },
   {
@@ -4364,7 +4364,7 @@
   },
   {
     "id": "791",
-    "type": "base",
+    "type": "air",
     "hardware": "V1"
   },
   {
@@ -4674,7 +4674,7 @@
   },
   {
     "id": "871",
-    "type": "base",
+    "type": "air",
     "hardware": "V1"
   },
   {
@@ -4729,7 +4729,7 @@
   },
   {
     "id": "883",
-    "type": "base",
+    "type": "air",
     "hardware": "V1"
   },
   {
