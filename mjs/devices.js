@@ -35,7 +35,7 @@ function GetMJSDataUrlDevices(device) {
     skipCondition = 0;
     doScrape = true;
   }
-  if(lastScrapeLag === undefined)                         // first scrape
+  else if(lastScrapeLag === undefined)                         // first scrape
   {
     skipCondition = 1;
     doScrape = true;
@@ -66,7 +66,7 @@ function GetMJSDataUrlDevices(device) {
   
   if (doScrape)
   {
-    if(lastMeasurement === undefined || skipCondition === 0)
+    if(lastMeasurement === undefined)
     {
       console.log(`${device.id} has no measurements (yet)`)
       dataURL = `https://meetjestad.net/data/?type=sensors&format=json&ids=${device.id}`;
