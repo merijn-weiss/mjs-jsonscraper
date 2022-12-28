@@ -44,7 +44,10 @@ const GetGeo = async (id, lat, lon) => {
 
     if(cachedGeo === undefined)
     {
-        console.log(`GEO API: ${geoKey}. Haversine: ${distanceToPin} to ${pinnedGeo}.`);
+        if(pinnedGeo != undefined)
+            console.log(`GEO API: ${geoKey}. Haversine: ${distanceToPin} to ${pinnedGeo.latitude}-${pinnedGeo.longitude}.`);
+        else
+            console.log(`GEO API: ${geoKey}.`);
 
         try
         {
