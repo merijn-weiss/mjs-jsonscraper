@@ -47,11 +47,19 @@ const GetGeo = async (id, lat, lon) => {
 
         try
         {
-            const scrapedGeo = await axiosLimited.get(
-                `https://api.geoapify.com/v1/geocode/reverse?lat=${lat}&lon=${lon}&type=amenity&lang=nl&format=json&apiKey=${apiKey}`,
-                { timeout: 10000 });
+            let levels = ['amenity', 'street', 'postcode', 'city', 'state', 'country'];
+
+            for(let level in levels)
+            {
+                const scrapedGeo = await axiosLimited.get(
+                    `https://api.geoapify.com/v1/geocode/reverse?lat=${lat}&lon=${lon}&type=${levels[level]}&lang=nl&format=json&apiKey=${apiKey}`,
+                    { timeout: 10000 });
+        
+                cachedGeo = scrapedGeo.data.results[0];
     
-            cachedGeo = scrapedGeo.data.results[0];
+                if(cachedGeo != undefined)
+                    break;
+            }
         }
         catch (error)
         {
@@ -62,19 +70,20 @@ const GetGeo = async (id, lat, lon) => {
         }
         finally
         {
-            if(cachedGeo != undefined)
+            if(cachedGeo === undefined)
             {
-                cachedGeo.geoKey = geoKey;
-
-                geoCache.devices[id] = {pinnedGeo : {lat: lat, lon: lon} };
-                geoCache.locations[geoKey] = cachedGeo;
-                
-                fs.writeFileSync(geocacheFile, JSON.stringify(geoCache, null, 2));    
+                console.log(`undefined cachedGeo for ${geoKey}`);
+                cachedGeo = {};
             }
             else
             {
-                console.log(`undefined cachedGeo for ${geoKey}`);
+                geoCache.devices[id] = {pinnedGeo : {lat: lat, lon: lon} };
             }
+            
+            cachedGeo.geoKey = geoKey;
+            geoCache.locations[geoKey] = cachedGeo;
+            
+            fs.writeFileSync(geocacheFile, JSON.stringify(geoCache, null, 2));    
         }
     }
 
