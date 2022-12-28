@@ -28,10 +28,11 @@ const GetGeo = async (id, lat, lon) => {
  
     let newGeo = (lat > 0 && lon > 0) ? { latitude: lat, longitude: lon } : undefined;
 
+    let distanceToPin = 0;
     if(pinnedGeo != undefined && newGeo != undefined)
     {
-        let distanceToPin = haversine(newGeo, pinnedGeo);
-        if(distanceToPin < 100) // when the geo distance is less then 100 meters from the pinnend then use the pinned geo
+        distanceToPin = haversine(newGeo, pinnedGeo);
+        if(distanceToPin < 150) // when the geo distance is less then 150 meters from the pinnend then use the pinned geo
         {
             lat = pinnedGeo.latitude;
             lon = pinnedGeo.longitude;
@@ -43,7 +44,7 @@ const GetGeo = async (id, lat, lon) => {
 
     if(cachedGeo === undefined)
     {
-        console.log(`GEO API: ${geoKey}`);
+        console.log(`GEO API: ${geoKey}. Haversine: ${distanceToPin} to ${pinnedGeo}.`);
 
         try
         {
