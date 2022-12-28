@@ -49,7 +49,7 @@ const GetGeo = async (id, lat, lon) => {
         {
             const scrapedGeo = await axiosLimited.get(
                 `https://api.geoapify.com/v1/geocode/reverse?lat=${lat}&lon=${lon}&type=amenity&lang=nl&format=json&apiKey=${apiKey}`,
-                { timeout: 5000 });
+                { timeout: 10000 });
     
             cachedGeo = scrapedGeo.data.results[0];
         }
@@ -57,15 +57,24 @@ const GetGeo = async (id, lat, lon) => {
         {
             cachedGeo = {}
             cachedGeo.error = error;
+
+            console.log(error);
         }
         finally
         {
-            cachedGeo.geoKey = geoKey;
+            if(cachedGeo != undefined)
+            {
+                cachedGeo.geoKey = geoKey;
 
-            geoCache.devices[id] = {pinnedGeo : {lat: lat, lon: lon} };
-            geoCache.locations[geoKey] = cachedGeo;
-            
-            fs.writeFileSync(geocacheFile, JSON.stringify(geoCache, null, 2));
+                geoCache.devices[id] = {pinnedGeo : {lat: lat, lon: lon} };
+                geoCache.locations[geoKey] = cachedGeo;
+                
+                fs.writeFileSync(geocacheFile, JSON.stringify(geoCache, null, 2));    
+            }
+            else
+            {
+                console.log(`undefined cachedGeo for ${geoKey}`);
+            }
         }
     }
 
