@@ -1,7 +1,7 @@
 {
     "elastic": {
       "index": {
-        "mjs": "mjs-dev",
+        "mjs": "sensors-environmental",
         "knmi": "knmi-dev"
       }
     },
