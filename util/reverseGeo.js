@@ -35,7 +35,7 @@ const GetGeo = async (id, lat, lon) => {
         {
             lat = pinnedGeo.latitude;
             lon = pinnedGeo.longitude;
-        }    
+        }
     }
 
     let geoKey = `${lat}-${lon}`;

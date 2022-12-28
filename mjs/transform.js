@@ -46,11 +46,13 @@ async function ConvertRawJSON(source, rawJSON) {
         {
             for(let geoKey in geoInfo)
             {
-                convertedJSON.device.geo[geoKey] = geoInfo[geoKey];
+                if(geoKey === 'lat')
+                    convertedJSON.device.geo.location.lat = geoInfo.lat;
+                else if(geoKey === 'lon')
+                    convertedJSON.device.geo.location.lon = geoInfo.lon;
+                else                
+                    convertedJSON.device.geo[geoKey] = geoInfo[geoKey];
             }
-
-            convertedJSON.device.geo.location.lat = geoInfo.lat;
-            convertedJSON.device.geo.location.lon = geoInfo.lon;
         }
     }
     
