@@ -37,10 +37,10 @@ async function ConvertRawJSON(source, rawJSON) {
     {
         convertedJSON.device.geo = {};
         convertedJSON.device.geo.location = {};
-        convertedJSON.device.geo.location.lat = (Math.round(measurement.latitude * 10000))/10000; // round to 11.1 meter precision
-        convertedJSON.device.geo.location.lon = (Math.round(measurement.longitude * 10000))/10000; // round to 11.1 meter precision   
+        convertedJSON.device.geo.location.lat = measurement.latitude;
+        convertedJSON.device.geo.location.lon = measurement.longitude;
 
-        let geoInfo = await reverseGeo.GetGeo(convertedJSON.device.geo.location.lat, convertedJSON.device.geo.location.lon);
+        let geoInfo = await reverseGeo.GetGeo(convertedJSON.device.id, convertedJSON.device.geo.location.lat, convertedJSON.device.geo.location.lon);
 
         if(geoInfo != undefined)
         {
@@ -48,6 +48,9 @@ async function ConvertRawJSON(source, rawJSON) {
             {
                 convertedJSON.device.geo[geoKey] = geoInfo[geoKey];
             }
+
+            convertedJSON.device.geo.location.lat = geoInfo.lat;
+            convertedJSON.device.geo.location.lon = geoInfo.lon;
         }
     }
     

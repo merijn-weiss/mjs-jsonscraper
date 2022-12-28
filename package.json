@@ -26,6 +26,7 @@
     "config": "^3.3.8",
     "cron": "^2.1.0",
     "dotenv": "^16.0.3",
+    "haversine-distance": "^1.2.1",
     "mqtt": "^4.3.7",
     "p-limit": "^3.1.0",
     "underscore": "^1.13.6"

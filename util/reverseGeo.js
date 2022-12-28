@@ -7,18 +7,39 @@ const fs = require('fs');
 const config = require('config');
 const geoCacheConfig = config.get('geocache');
 
+const haversine = require('haversine-distance')
+
 const path = require('path');
 const geocacheFile = path.join(__dirname, `../config/${geoCacheConfig.geocacheFile}`);
 
 let geoCache;
 let apiKey = process.env.GEO_APIKEY;
 
-const GetGeo = async (lat, lon) => {
+const GetGeo = async (id, lat, lon) => {
     if(geoCache === undefined)
         LoadCacheFile();
 
+    // see if there is a known location for the device
+    let deviceGeo = geoCache.devices[id];
+
+    let pinnedGeo;
+    if(deviceGeo != undefined && deviceGeo.pinnedGeo != undefined)
+        pinnedGeo = { latitude: deviceGeo.pinnedGeo.lat, longitude: deviceGeo.pinnedGeo.lon };
+ 
+    let newGeo = (lat > 0 && lon > 0) ? { latitude: lat, longitude: lon } : undefined;
+
+    if(pinnedGeo != undefined && newGeo != undefined)
+    {
+        let distanceToPin = haversine(newGeo, pinnedGeo);
+        if(distanceToPin < 100) // when the geo distance is less then 100 meters from the pinnend then use the pinned geo
+        {
+            lat = pinnedGeo.latitude;
+            lon = pinnedGeo.longitude;
+        }    
+    }
+
     let geoKey = `${lat}-${lon}`;
-    let cachedGeo = (geoCache.filter((obj) => (obj.geoKey === geoKey)))[0];
+    let cachedGeo = geoCache.locations[geoKey];
 
     if(cachedGeo === undefined)
     {
@@ -40,18 +61,19 @@ const GetGeo = async (lat, lon) => {
         finally
         {
             cachedGeo.geoKey = geoKey;
-            geoCache.push(cachedGeo);
+
+            geoCache.devices[id] = {pinnedGeo : {lat: lat, lon: lon} };
+            geoCache.locations[geoKey] = cachedGeo;
+            
             fs.writeFileSync(geocacheFile, JSON.stringify(geoCache, null, 2));
         }
-    }
-    else
-    {
-       // console.log(`GEO CACHE: ${geoKey}`);
     }
 
     if(cachedGeo != undefined && cachedGeo.error === undefined)
     {
         let geoResult = {};
+        geoResult.lat = lat;
+        geoResult.lon = lon;
         (cachedGeo.country != undefined)        ? geoResult.country_name = cachedGeo.country : undefined;
         (cachedGeo.country_code != undefined)   ? geoResult.country_iso_code = (cachedGeo.country_code).toUpperCase() : undefined;
         (cachedGeo.state != undefined)          ? geoResult.region_name = cachedGeo.state : undefined;
