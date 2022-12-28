@@ -1,8 +1,9 @@
 'use strict';
+const reverseGeo = require('../util/reverseGeo.js');
 
 // JSON CONVERSION
 const pmMaxValue = 65000;
-function ConvertRawJSON(source, rawJSON) {
+async function ConvertRawJSON(source, rawJSON) {
     // DEVICE
     let deviceSettings = JSON.parse(JSON.stringify(rawJSON.device));
     let measurement = rawJSON;
@@ -34,9 +35,20 @@ function ConvertRawJSON(source, rawJSON) {
 
     if(measurement.longitude != null && measurement.latitude != null)
     {
-        convertedJSON.device.location = {};
-        convertedJSON.device.location.lon = measurement.longitude;    
-        convertedJSON.device.location.lat = measurement.latitude;    
+        convertedJSON.device.geo = {};
+        convertedJSON.device.geo.location = {};
+        convertedJSON.device.geo.location.lat = (Math.round(measurement.latitude * 10000))/10000; // round to 11.1 meter precision
+        convertedJSON.device.geo.location.lon = (Math.round(measurement.longitude * 10000))/10000; // round to 11.1 meter precision   
+
+        let geoInfo = await reverseGeo.GetGeo(convertedJSON.device.geo.location.lat, convertedJSON.device.geo.location.lon);
+
+        if(geoInfo != undefined)
+        {
+            for(let geoKey in geoInfo)
+            {
+                convertedJSON.device.geo[geoKey] = geoInfo[geoKey];
+            }
+        }
     }
     
     // SENSORS

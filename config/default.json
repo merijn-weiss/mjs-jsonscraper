@@ -18,5 +18,9 @@
     {
       "deviceSettingsFile": "settings.devices.json",
       "deviceForceScrapeFile": "setting.devices.forcescrape.txt"
+    },
+    "geocache":
+    {
+      "geocacheFile": "geocache.json"
     }
 }

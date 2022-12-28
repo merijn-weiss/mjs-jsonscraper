@@ -44,7 +44,7 @@ async function ScrapeMJS(devices)
                 if(_.isObject(measurement))
                 {
                     measurement.device = device;
-                    convertedMeasurements.push(ConvertRawJSON(device.source, measurement));                            
+                    convertedMeasurements.push(await ConvertRawJSON(device.source, measurement));                            
                 }
             }
             convertedMeasurementIDs.push(device.id);

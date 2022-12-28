@@ -42,7 +42,7 @@ const getJSON = function (id) {
                 }
             }
             else if(hasPM) {
-                device.type = 'aire';
+                device.type = 'air';
                 console.log(`${deviceJSON.id} -> Air: ${deviceJSON.pm10}`);
             }
             else{

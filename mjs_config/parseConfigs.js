@@ -3,116 +3,165 @@ const fs = require('fs');
 const _ = require('underscore');
 
 // File References
-let calBodemFile = 'cal_bodem.json';
-let calGreenRoofFile = 'cal_greenroof.json';
+let mjsNodeFile = 'node_meta_data.json';
+
+let sensorDefaultFile = 'sensorDefaults.json';
 let additionalSensorsFile = 'additionalSensors.json';
 let deviceSettingsFile = '../config/settings.devices.json';
+
+let typeMapping = {soil_moisture: 'soil', greenroof: 'greenroof', green_roof: 'greenroof', air_quality: 'air', climate: 'base', unknown: 'unknown'};
+
+let sensorTypes = new Set();
 
 // Parse the MJS CAL files and create settings.devices.json file as per the format for MJS Scraper
 function ParseConfig() {
     let deviceSettings = [];
 
-    // Soil
-    let calBodem = JSON.parse(fs.readFileSync(calBodemFile));
-    let defaultCalBodem = calBodem.filter((obj) => obj.id === 'default')[0];
-    let defaultSoilDevice = ParseCAL('soil', defaultCalBodem);
+    // MJS Nodes
+    let mjsDevices = JSON.parse(fs.readFileSync(mjsNodeFile));
 
-    for (let device of calBodem){
+    for (let device of mjsDevices.nodes){
         if(device.id != 'default')
-            deviceSettings.push(ParseCAL('soil', device, defaultSoilDevice));        
-    }
-    defaultSoilDevice.format.solarV = "4"; // Add this because missing from CAL
-    deviceSettings.push(defaultSoilDevice);
-
-    // Greenroof
-    let calGreenRoof = JSON.parse(fs.readFileSync(calGreenRoofFile));
-    let defaultCalGreenRoof = calGreenRoof.filter((obj) => obj.id === 'default')[0];
-    let defaultGreenRoofDevice = ParseCAL('greenroof', defaultCalGreenRoof);
-
-    for (let device of calGreenRoof){
-        if(device.id != 'default')
-            deviceSettings.push(ParseCAL('greenroof', device, defaultGreenRoofDevice));
+        {
+            device.maintype = (device.maintype === '') ? 'unknown' : device.maintype;
+            deviceSettings.push(ParseCAL(typeMapping[device.maintype], device));
+        }
     }
 
-    defaultGreenRoofDevice.format.soilM1 = "0"; // Add this because missing from CAL
-    defaultGreenRoofDevice.format.soilT1 = "1"; // Add this because missing from CAL
-    defaultGreenRoofDevice.format.solarV = "2"; // Add this because missing from CAL
-    deviceSettings.push(defaultGreenRoofDevice);
+    // Add the defaults to the file
+    for (let device of sensorDefault){
+        deviceSettings.push(device);
+    } 
 
     // Additional sensors
     let additionalSensors = JSON.parse(fs.readFileSync(additionalSensorsFile));
     for (let device of additionalSensors){
-        deviceSettings.push(device);
-    } 
+        if(deviceSettings.filter((obj) => obj.id === device.id).length === 0)
+        {
+            deviceSettings.push(device);
+        }
+        else
+        {
+            let deviceToOverwrite = deviceSettings.filter((obj) => obj.id === device.id)[0];
 
-    // DIRTY FIX, VALUES MISSING FROM CAL
-    (deviceSettings.filter((obj) => obj.id === '2021')[0]).format.solarV = "13";
-    (deviceSettings.filter((obj) => obj.id === '2059')[0]).format.solarV = "4";
+            for(let prop in device)
+            {
+                deviceToOverwrite[prop] = device[prop];
+            }
+        }
+    }
+
+    console.log('\n**** Sensors in Set ****');
+    console.log(sensorTypes);
+
+    // DIRTY FIX, VALUES MISSING /INCORRECT FROM node_meta_data
+    (deviceSettings.filter((obj) => obj.id === 'default' && obj.type === 'greenroof')[0]).format.solarV = "2";
+    (deviceSettings.filter((obj) => obj.id === 'default' && obj.type === 'soil')[0]).format.solarV = "4";
 
     deviceSettings =  _.sortBy(deviceSettings, 'id');
-    console.log(deviceSettings);
 
     fs.writeFileSync(deviceSettingsFile, JSON.stringify(deviceSettings, null, 2));
 }
 
-let fieldMapping = {soilM10: "soilM1", soilT10: "soilT1", soilM40: "soilM2", soilT40: "soilT2"};
-let emptyCalibration = {calibration: {soilM1: {a: '', b: ''}, soilT1: {a: '', b: ''}, soilM2: {a: '', b: ''}, soilT2: {a: '', b: ''}}};
+let callibrationMapping = {soilM1: 'soilM1', soilT1: 'soilT1', soilM2: 'soilM2', soilT2: 'soilT2', roofM: 'roofM', roofT1: 'roofT'};
+let sensorDefault = JSON.parse(fs.readFileSync(sensorDefaultFile));
+function ParseCAL(type, device) {
 
-function ParseCAL(type, device, defaultDevice) {
+    let defaultDevice = sensorDefault.filter((obj) => obj.id === 'default' && obj.type === type)[0];
+
     let deviceSetting = {};
     deviceSetting.id = device.id;
     deviceSetting.type = type;
+    deviceSetting.hardware = device.hardware;
+    
+    let sensorBase = false;
+    let sensorAir = false;
+    let sensorGreenroof = false;
+    let sensorSoil = false;
+    let solarPanel = false;
 
-    if(defaultDevice === undefined || !_.isEqual(device.format, defaultDevice.format))
+    if(device.sensors != undefined && device.sensors[0] != undefined && device.sensors[0].order != undefined)
     {
-        deviceSetting.format = {};
-        for (let field in device.format)
+        for(let sensorKey in device.sensors[0].order)
         {
-            deviceSetting.format[fieldMapping[field]] = device.format[field];
+            let sensor = device.sensors[0].order[sensorKey];
+
+            if(!sensorTypes.has(sensor))
+                sensorTypes.add(sensor);
+
+            sensorBase = (sensor === 'si7021') ? true : sensorBase;
+            sensorAir = (sensor === 'sensirion_sps30') ? true : sensorAir;
+            sensorGreenroof = (sensor === '1xpinotechsw10_1xntc10k') ? true : sensorGreenroof;
+            sensorSoil = (sensor === '2xpinotechsw10_2xntc10k') ? true : sensorSoil;
+            solarPanel = (sensor === 'vsolar') ? true : solarPanel;
+        }
+    }
+
+    if(deviceSetting.type === 'base')
+    {
+        if(sensorAir || sensorGreenroof || sensorSoil)
+            console.log(`Device Type 'Base', but has ${device.sensors[0].order}`);
+    }
+    else if(deviceSetting.type === 'unknown')
+    {
+        console.log(`Device ${deviceSetting.id} type is unknown. Hardware is ${deviceSetting.hardware}`);
+    }
+
+    let deviceFormat = {};
+    if(device.formats != undefined)
+    {
+        if(device.formats.length === 1){
+            deviceFormat = device.formats[0];
+
+            delete deviceFormat.date;
+            delete deviceFormat.sensor;
+        }
+        else
+        {
+            console.log(`Enxpected Formats: ${device.id}` )
+            console.log(device.formats);
+        }    
+    }
+
+    if(!_.isEqual(deviceFormat, {}) && !_.isEqual(deviceFormat, defaultDevice.format))
+    {
+        console.log('Format not default:', deviceFormat);
+        console.log('  default:', defaultDevice.format);
+        
+        deviceSetting.format = {};
+        for (let field in deviceFormat)
+        {
+            deviceSetting.format[field] = deviceFormat[field];
         }
     }
     
-    deviceSetting.calibration = {};
-    if(type === 'soil')
+    deviceSetting.calibration = {};    
+    if(device.calibrations != undefined && device.calibrations[0].values != undefined)
     {
-        deviceSetting.calibration.soilM1 = {}
-        deviceSetting.calibration.soilM1.a = device.calibrations.workshop.values.soilM1.a;
-        deviceSetting.calibration.soilM1.b = device.calibrations.workshop.values.soilM1.b;
-        
-        deviceSetting.calibration.soilT1 = {}
-        deviceSetting.calibration.soilT1.a = device.calibrations.workshop.values.soilT1.a;
-        deviceSetting.calibration.soilT1.b = device.calibrations.workshop.values.soilT1.b;
-        
-        deviceSetting.calibration.soilM2 = {}
-        deviceSetting.calibration.soilM2.a = device.calibrations.workshop.values.soilM2.a;
-        deviceSetting.calibration.soilM2.b = device.calibrations.workshop.values.soilM2.b;
-    
-        deviceSetting.calibration.soilT2 = {}
-        deviceSetting.calibration.soilT2.a = device.calibrations.workshop.values.soilT2.a;
-        deviceSetting.calibration.soilT2.b = device.calibrations.workshop.values.soilT2.b;        
-    }
-    else if(type === 'greenroof')
-    {
-        deviceSetting.calibration.soilM1 = {}
-        deviceSetting.calibration.soilM1.a = device.calibration.soilM.a;
-        deviceSetting.calibration.soilM1.b = device.calibration.soilM.b;
-        
-        deviceSetting.calibration.soilT1 = {}
-        deviceSetting.calibration.soilT1.a = device.calibration.soilT.a;
-        deviceSetting.calibration.soilT1.b = device.calibration.soilT.b;
+        let calValues = device.calibrations[0].values;
+
+        for(let cal in calValues)
+        {
+            let mappedCal = callibrationMapping[cal];
+            if(mappedCal != undefined && device.calibrations[0].values[cal].a != '' && device.calibrations[0].values[cal].b != '')
+            {
+                deviceSetting.calibration[mappedCal] = {}
+                deviceSetting.calibration[mappedCal].a = device.calibrations[0].values[cal].a;
+                deviceSetting.calibration[mappedCal].b = device.calibrations[0].values[cal].b;        
+            }
+        }
     }
 
     if(defaultDevice != undefined)
     {
-        if(_.isEqual(deviceSetting.format, defaultDevice.format))
+        if(_.isEqual(deviceSetting.format, defaultDevice.format) || _.isEqual(deviceSetting.format, {}))
             delete deviceSetting.format;
 
-        if(_.isEqual(deviceSetting.calibration, defaultDevice.calibration) || _.isEqual(deviceSetting.calibration, emptyCalibration.calibration))
+        if(_.isEqual(deviceSetting.calibration, defaultDevice.calibration) || _.isEqual(deviceSetting.calibration, {}))
             delete deviceSetting.calibration;
     }
 
     return deviceSetting;
 }
-
 
 ParseConfig();
