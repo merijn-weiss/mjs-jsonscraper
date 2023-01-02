@@ -32,11 +32,16 @@ const GetGeo = async (id, lat, lon) => {
     if(pinnedGeo != undefined && newGeo != undefined)
     {
         distanceToPin = haversine(newGeo, pinnedGeo);
-        if(distanceToPin < 150) // when the geo distance is less then 150 meters from the pinnend then use the pinned geo
+        if(distanceToPin < 200) // when the geo distance is less then 200 meters from the pinnend then use the pinned geo
         {
             lat = pinnedGeo.latitude;
             lon = pinnedGeo.longitude;
         }
+    }
+    else if(pinnedGeo != undefined)
+    {
+        lat = pinnedGeo.latitude;
+        lon = pinnedGeo.longitude;
     }
 
     let geoKey = `${lat}-${lon}`;
