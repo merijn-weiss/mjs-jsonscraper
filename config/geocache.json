@@ -1,5 +1,11 @@
 {
   "devices": {
+    "204": {
+      "pinnedGeo": {
+        "lat": 52.1618,
+        "lon": 5.37576
+      }
+    },
     "2096": {
       "pinnedGeo": {
         "lat": 52.201,
@@ -137,6 +143,45 @@
         "lat2": 52.200992
       },
       "geoKey": "52.201-5.37927"
+    },
+    "52.1618-5.37576": {
+      "country_code": "nl",
+      "housenumber": "32",
+      "street": "Nijverheidsweg-Noord",
+      "country": "Nederland",
+      "datasource": {
+        "sourcename": "openaddresses",
+        "attribution": "© OpenAddresses contributors",
+        "license": "BSD-3-Clause License"
+      },
+      "postcode": "3812PM",
+      "state": "Utrecht",
+      "district": "Amersfoort",
+      "city": "Amersfoort",
+      "suburb": "Geldersestraat",
+      "lon": 5.375682,
+      "lat": 52.161694,
+      "state_code": "UT",
+      "distance": 12.931858923909985,
+      "result_type": "building",
+      "formatted": "Nijverheidsweg-Noord 32, 3812 PM Amersfoort, Nederland",
+      "address_line1": "Nijverheidsweg-Noord 32",
+      "address_line2": "3812 PM Amersfoort, Nederland",
+      "timezone": {
+        "name": "Europe/Amsterdam",
+        "name_alt": "Europe/Brussels",
+        "offset_STD": "+01:00",
+        "offset_STD_seconds": 3600,
+        "offset_DST": "+02:00",
+        "offset_DST_seconds": 7200,
+        "abbreviation_STD": "CET",
+        "abbreviation_DST": "CEST"
+      },
+      "rank": {
+        "popularity": 7.978729636555182
+      },
+      "place_id": "5193c83ec8b280154059cefa9463b2144a40e203476f70656e6164647265737365733a616464726573733a6e6c2f636f756e747279776964652d6164647265737365732d636f756e7472793a32373432393461323131663663643639",
+      "geoKey": "52.1618-5.37576"
     }
   }
 }

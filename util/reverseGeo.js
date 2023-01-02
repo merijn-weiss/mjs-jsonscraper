@@ -101,15 +101,15 @@ const GetGeo = async (id, lat, lon) => {
         let geoResult = {};
         geoResult.lat = lat;
         geoResult.lon = lon;
-        (cachedGeo.country != undefined)        ? geoResult.country_name = cachedGeo.country : undefined;
-        (cachedGeo.country_code != undefined)   ? geoResult.country_iso_code = (cachedGeo.country_code).toUpperCase() : undefined;
-        (cachedGeo.state != undefined)          ? geoResult.region_name = cachedGeo.state : undefined;
-        (cachedGeo.state_code != undefined)     ? geoResult.region_iso_code = (cachedGeo.state_code).toUpperCase() : undefined;
-        (cachedGeo.city != undefined)           ? geoResult.city_name = cachedGeo.city : undefined;
-        (cachedGeo.suburb != undefined)         ? geoResult.suburb_name = cachedGeo.suburb : undefined;
-        (cachedGeo.street != undefined)         ? geoResult.street_name = cachedGeo.street : undefined;
-        (cachedGeo.housenumber != undefined)    ? geoResult.housenumber = cachedGeo.housenumber : undefined;
-        (cachedGeo.formatted != undefined)      ? geoResult.name = cachedGeo.formatted : undefined;
+        (cachedGeo.country != undefined)        ? geoResult.country_name = cachedGeo.country : '-';
+        (cachedGeo.country_code != undefined)   ? geoResult.country_iso_code = (cachedGeo.country_code).toUpperCase() : '-';
+        (cachedGeo.state != undefined)          ? geoResult.region_name = cachedGeo.state : '-';
+        (cachedGeo.state_code != undefined)     ? geoResult.region_iso_code = (cachedGeo.state_code).toUpperCase() : '-';
+        (cachedGeo.city != undefined)           ? geoResult.city_name = cachedGeo.city : '-';
+        (cachedGeo.suburb != undefined)         ? geoResult.suburb_name = cachedGeo.suburb : '-';
+        (cachedGeo.street != undefined)         ? geoResult.street_name = cachedGeo.street : '-';
+        (cachedGeo.housenumber != undefined)    ? geoResult.housenumber = cachedGeo.housenumber : '-';
+        (cachedGeo.formatted != undefined)      ? geoResult.name = cachedGeo.formatted : '-';
 
         return geoResult;
     }
