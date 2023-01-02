@@ -33,26 +33,23 @@ async function ConvertRawJSON(source, rawJSON) {
     if(measurement.extra != undefined && deviceSettings.format.solarV != undefined)
         convertedJSON.device.solarVoltage = measurement.extra[parseInt(deviceSettings.format.solarV)];
 
-    if(measurement.longitude != null && measurement.latitude != null)
+    convertedJSON.device.geo = {};
+    convertedJSON.device.geo.location = {};
+    convertedJSON.device.geo.location.lat = (measurement.longitude != null) ? measurement.latitude : undefined;
+    convertedJSON.device.geo.location.lon = (measurement.latitude != null) ? measurement.longitude : undefined;
+
+    let geoInfo = await reverseGeo.GetGeo(convertedJSON.device.id, convertedJSON.device.geo.location.lat, convertedJSON.device.geo.location.lon);
+
+    if(geoInfo != undefined)
     {
-        convertedJSON.device.geo = {};
-        convertedJSON.device.geo.location = {};
-        convertedJSON.device.geo.location.lat = measurement.latitude;
-        convertedJSON.device.geo.location.lon = measurement.longitude;
-
-        let geoInfo = await reverseGeo.GetGeo(convertedJSON.device.id, convertedJSON.device.geo.location.lat, convertedJSON.device.geo.location.lon);
-
-        if(geoInfo != undefined)
+        for(let geoKey in geoInfo)
         {
-            for(let geoKey in geoInfo)
-            {
-                if(geoKey === 'lat')
-                    convertedJSON.device.geo.location.lat = geoInfo.lat;
-                else if(geoKey === 'lon')
-                    convertedJSON.device.geo.location.lon = geoInfo.lon;
-                else                
-                    convertedJSON.device.geo[geoKey] = geoInfo[geoKey];
-            }
+            if(geoKey === 'lat')
+                convertedJSON.device.geo.location.lat = geoInfo.lat;
+            else if(geoKey === 'lon')
+                convertedJSON.device.geo.location.lon = geoInfo.lon;
+            else                
+                convertedJSON.device.geo[geoKey] = geoInfo[geoKey];
         }
     }
     

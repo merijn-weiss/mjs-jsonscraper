@@ -26,7 +26,7 @@ const GetGeo = async (id, lat, lon) => {
     if(deviceGeo != undefined && deviceGeo.pinnedGeo != undefined)
         pinnedGeo = { latitude: deviceGeo.pinnedGeo.lat, longitude: deviceGeo.pinnedGeo.lon };
  
-    let newGeo = (lat > 0 && lon > 0) ? { latitude: lat, longitude: lon } : undefined;
+    let newGeo = (lat != undefined && lon != undefined) ? { latitude: lat, longitude: lon } : undefined;
 
     let distanceToPin = 0;
     if(pinnedGeo != undefined && newGeo != undefined)
